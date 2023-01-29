@@ -35,6 +35,7 @@ const projectList = projects
     padding: 100px 100px 0 100px;
     width: 100%;
     display: flex;
+    font-size: 24px;
 
     .project-list {
         display: flex;
@@ -43,7 +44,7 @@ const projectList = projects
 
     .title {
         height: 100%;
-        margin-right: 250px;
+        margin-right: 100px;
     }
 }
 
@@ -52,13 +53,18 @@ const projectList = projects
     justify-content: space-between;
     width: 100%;
     margin-bottom: 100px;
+    height: calc(100vh - 100px);
+    text-align: justify;
 
 
-    .project-title, .project-desc, .project-img-container {
-        width: 20%;
+
+    .project-title,
+    .project-desc,
+    .project-img-container {
+        width: 30%;
     }
 
-    .project-date{
+    .project-date {
         color: rgba(111, 111, 111, 1);
     }
 }

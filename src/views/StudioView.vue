@@ -8,6 +8,8 @@
                 Markaların kişiliklerinin algımızdaki rolü büyüktür ve kişilikli bir marka, rakiplerinizden ayırarak
                 sizi öne çıkarır.
                 <br>
+                <br>
+                <br>
                 Tasarımlarımız sizin ihtiyaçlarınıza ve markanızın sektörüne özel olarak hazırlanır ve önceden
                 hazırlanmış taslaklar
                 kullanılmaz.
@@ -77,15 +79,21 @@
     width: 100%;
     padding: 100px;
     padding-bottom: 0;
+    font-size: 24px;
+    text-align: justify;
 
     .studio-item {
         display: flex;
         width: 100%;
-        height: 100vh;
+        height: calc(100vh - 100px);
         justify-content: space-between;
 
         div {
-            width: 20%;
+            width: 25%;
+        }
+
+        div.title{
+            width: 15%;
         }
 
         .img-container img {
@@ -98,7 +106,7 @@ ul {
     list-style: none;
 
     li {
-        margin: 10px 0;
+        margin-bottom: 15px;
     }
 }
 

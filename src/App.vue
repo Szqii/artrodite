@@ -36,6 +36,7 @@ const scrollToTop = () => {
 body {
   font-family: "Satoshi-Variable";
   background: #F3F3F3;
+  font-weight: 300;
 }
 
 a {
