@@ -39,6 +39,38 @@ body {
   font-weight: 300;
 }
 
+::selection {
+  color: #f3f3f3;
+  background: #070707;
+}
+
+/* ::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 16px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+}
+::-webkit-scrollbar-thumb {
+  background: #070707;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #070707;
+} */
+
+::-webkit-scrollbar-track {
+  background-color: #F3F3F3;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+  background-color: #F3F3F3;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #070707;
+}
+
 a {
   color: #000;
   text-decoration: none;

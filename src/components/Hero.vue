@@ -3,7 +3,7 @@
         <div class="desc-container">
 
             <div class="desc">
-                <span>Artroditie, <br> modern ve özgün tasarımlar üretmeyi amaçlayan, <br> Denizli merkezli bir tasarım stüdyosudur.</span>
+                <span>Artrodite, <br> modern ve özgün tasarımlar üretmeyi amaçlayan, <br> Denizli merkezli bir tasarım stüdyosudur.</span>
             </div>
             <div class="details-btn hover-underline-animation">
                 <router-link to="/studio">Detaylı Bilgi <i class="fa-solid fa-chevron-right"></i> </router-link>
