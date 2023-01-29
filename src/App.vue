@@ -1,30 +1,54 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
-  <router-view/>
+  <div>
+    <Navbar />
+    <router-view />
+    <div @click="scrollToTop" class="scroll-to-top-button">
+      <i class="fa-solid fa-chevron-up"></i>
+    </div>
+  </div>
 </template>
 
+<script setup>
+import Navbar from '@/components/Navbar.vue';
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  })
+}
+</script>
+
 <style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
+@import url('./css/_animation.scss');
+
+@font-face {
+  font-family: "Satoshi-Variable";
+  src: local("Satoshi-Variable"),
+    url(./fonts/Satoshi-Variable.ttf) format("truetype");
 }
 
-nav {
-  padding: 30px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+body {
+  font-family: "Satoshi-Variable";
+  background: #F3F3F3;
+}
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  color: #000;
+  cursor: pointer;
+  font-size: 24px;
 }
 </style>
