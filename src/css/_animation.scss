@@ -21,3 +21,29 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+.slide-up-down{
+    animation: slideUpDown 1s ease-in-out infinite;
+}
+
+// TODO: move to _variables.scss
+.text-justify{ 
+    text-align: justify;
+}
+
+.sticky-top-20{
+    position: sticky;
+    top: 20px;
+}
+
+@keyframes slideUpDown {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}

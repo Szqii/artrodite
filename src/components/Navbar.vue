@@ -1,57 +1,35 @@
 <template>
-    <div class="navbar">
-
-        <div class="logo">
+    <div class="row w-100" style="padding: 16px 100px; margin-bottom: 100px;">
+        <div class="logo col-3" style="cursor: pointer;">
             <router-link to="/">
                 <img src="../assets/navbar/logo.svg" alt="logo">
             </router-link>
         </div>
-        <div class="router-container">
-            <router-link class="hover-underline-animation" to="/"> <i class="fa fa-circle"/> Anasayfa</router-link>
-            <router-link class="hover-underline-animation" to="/projects"><i class="fa fa-circle" /> Projeler</router-link>
-            <router-link class="hover-underline-animation" to="/studio"><i class="fa fa-circle" /> Stüdyo</router-link>
-            <router-link class="hover-underline-animation" to="/contact"><i class="fa fa-circle" /> İletişim</router-link>
+        <div class="router-container col-9 text-end">
+            <router-link class="hover-underline-animation ms-4" to="/"> <i class="fa fa-circle" /> Anasayfa</router-link>
+            <router-link class="hover-underline-animation ms-4" to="/projects"><i class="fa fa-circle" /> Projeler</router-link>
+            <router-link class="hover-underline-animation ms-4" to="/studio"><i class="fa fa-circle" /> Stüdyo</router-link>
+            <router-link class="hover-underline-animation ms-4" to="/contact"><i class="fa fa-circle" /> İletişim</router-link>
         </div>
-  </div>
+    </div>
 </template>
 
 <style lang="scss" scoped>
-.navbar {
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px 100px;
-}
+ a{
 
-.router-container{
-    display: flex;
-    
-}
+     font-weight: 500;
+     padding: 5px 10px;
+ }
 
-a{
-    margin-right: 70px;
-    font-weight: 500;
-    padding: 5px 10px;
-    transition: .2s all ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    &:last-child{
-        margin-right: 0;
-    }
-}
-
-i{
+i {
     opacity: 0;
     font-size: .3rem;
     margin-right: 5px;
 }
 
-.router-link-active, .router-link-exact-active{
-    i{
+.router-link-active,
+.router-link-exact-active {
+    i {
         opacity: 1;
     }
 }

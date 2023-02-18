@@ -1,16 +1,28 @@
 <template>
-    <div class="container">
-        <div class="desc-container">
-
-            <div class="desc">
-                <span>Artrodite, <br> modern ve özgün tasarımlar üretmeyi amaçlayan, <br> Denizli merkezli bir tasarım stüdyosudur.</span>
-            </div>
-            <div class="details-btn hover-underline-animation">
-                <router-link to="/studio">Detaylı Bilgi <i class="fa-solid fa-chevron-right"></i> </router-link>
-            </div>
+    <div class="row mx-auto justify-content-between" style="height: 100vh; padding: 0 100px;">
+        <div class="title position-relative col-3">
+            <span class="hover-underline-animation sticky-top-20" style="font-weight: 700; font-size: 24px; cursor: default;">artrodite</span>
         </div>
-        <div class="hero-img-container">
-            <img src="../assets/hero/hero-img.png" alt="Hero Image">
+        <div class="desc-container row col-9">
+            <div class="desc col-4 d-flex flex-column justify-content-between">
+                <span>Artrodite <span class="makeItBlack">özgün ve kaliteli tasarımlar</span> oluşturarak
+                    alanında fark yaratmayı
+                    amaçlayan,
+                    <span class="makeItBlack">Denizli</span> merkezli bir
+                    tasarım stüdyosudur.</span>
+                <img src="../assets/hero/ss.png" alt="" style="max-width: 100%;">
+            </div>
+            <div class="desc col-4 d-flex flex-column justify-content-between">
+                <span>
+                    Çalışmalarımız sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Önceden
+                        hazırlanmış taslaklar
+                        kullanılmaz.</span></span>
+                <img src="../assets/hero/ss.png" alt="" style="max-width: 100%;">
+            </div>
+            <div class="desc col-4 d-flex flex-column justify-content-between">
+                <router-link to="/studio">Detaylı Bilgi <i class="fa-solid fa-chevron-right" /> </router-link>
+                <img src="../assets/hero/ss.png" alt="" style="max-width: 100%;">
+            </div>
         </div>
     </div>
 </template>
@@ -21,42 +33,39 @@
 
 <style lang="scss" scoped>
 
-.container{
-    padding: 100px;
-    height: 100vh;
+.desc {
+    max-height: 600px;
+    padding: 0 10px !important;
 }
 
-.desc-container{
-    display: flex;
-    align-items: flex-start;
-}
-.desc{
-    max-width: 300px;
-    font-size: 24px;
-    font-weight: 300;
-    margin-bottom: 50px;
-    margin-right: 300px;
-}
+// .container {
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 100px;
+//     height: 100vh;
 
-.details-btn{
-    a{
-        font-size: 20px;
-        color: #000;
-        text-decoration: none;
-        text-align: center;
-        i{
-            margin-left: 10px;
-            
-        }
-    }
-}
+//     .title {
+//         margin-right: 200px;
+//         font-weight: 600;
+//         font-size: 1.5rem;
+//     }
+// }
 
-.hero-img-container{
-    text-align: right;
-    img{
-        width: 1080px;
-    }
-}
+// .desc-container {
+//     display: flex;
+//     max-width: 1080px;
 
+//     .desc {
+//         padding: 0 20px;
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: space-between;
+//         align-items: center;
+//         min-height: 500px;
 
-</style>
+//         img {
+
+//             width: 100%;
+//         }
+//     }
+// }</style>

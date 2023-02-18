@@ -1,34 +1,28 @@
 <template>
-    <div class="studio-view">
-        <div class="studio-item">
-            <div class="title">
-                <span>Biz</span>
+    <div class="row" style="padding: 0 100px;">
+        <div class="col-12 row" style="height: 100vh;">
+            <div class="col-3 position-relative">
+                <span class="sticky-top" style="font-weight: 700;">Biz</span>
             </div>
-            <div class="desc-1">
-                Markaların kişiliklerinin algımızdaki rolü büyüktür ve kişilikli bir marka, rakiplerinizden ayırarak
-                sizi öne çıkarır.
-                <br>
-                <br>
-                <br>
-                Tasarımlarımız sizin ihtiyaçlarınıza ve markanızın sektörüne özel olarak hazırlanır ve önceden
-                hazırlanmış taslaklar
-                kullanılmaz.
+            <div class="col-3 d-flex flex-column gap-4 px-4 text-justify">
+                <span> Günümüzde, markaların kişilikleri, algımızda çok büyük bir önem taşır. <span class="makeItBlack"> Kişilikli bir marka, </span> sizi rakiplerinizden ayırır ve öne çıkmanızı sağlar.</span>
+                <span> Projeler daima sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Hazır taslaklar kullanılmaz. </span> </span>
             </div>
-            <div class="desc-2">
-                Bizim amacımız, markanız için göz alıcı bir kişilik oluşturarak, müşteri potansiyelini arttırmaktır.
+            <div class="col-3 text-justify px-4">
+                <span class="makeItBlack">Artrodite’nin</span> ilk amacı markanız için <br>
+                <span class="makeItBlack">göz alıcı bir kişilik</span> oluşturarak, potansiyel müşterilerinizi arttırmayı ve işletmenizi hak ettiği başarıya ulaştırmaktır.
             </div>
-            <div class="img-container">
+            <div class="col-3">
                 <img src="../assets/studio/studio-1.png" alt="">
             </div>
         </div>
-        <div class="studio-item">
-            <div class="title">
-                <span>Metadoloji</span>
+        <div class="col-12 row" style="height: 100vh;">
+            <div class="col-3 position-relative">
+                <span class="sticky-top" style="font-weight: 700;">Metadoloji</span>
             </div>
-            <div class="desc-1">
-            </div>
-            <div class="desc-2">
-                <ul class="metodology-list">
+
+            <div class="col-3">
+                <ul class="list-unstyled d-flex flex-column gap-4">
                     <li>Dinle</li>
                     <li><i class="fa fa-chevron-down"></i></li>
                     <li>Araştır</li>
@@ -40,16 +34,17 @@
                     <li>Tekrarla</li>
                 </ul>
             </div>
-            <div class="img-container">
+            <div class="col-3" />
+            <div class="col-3">
                 <img src="../assets/studio/studio-2.png" alt="">
             </div>
         </div>
-        <div class="studio-item">
-            <div class="title">
-                <span>Çalışma Alanlarımız</span>
+        <div class="col-12 row" style="height: 100vh;">
+            <div class="col-3 position-relative">
+                <span class="sticky-top" style="font-weight: 700;">Çalışma Alanlarımız</span>
             </div>
-            <div class="desc-1">
-                <ul>
+            <div class="col-3">
+                <ul class="list-unstyled d-flex flex-column gap-4">
                     <li> Kurumsal Kimlik Tasarımı </li>
                     <li> UI - UX Tasarımı </li>
                     <li> Logo Tasarımı </li>
@@ -61,9 +56,9 @@
                     <li> Kart visit, defter, takvim vb. </li>
                 </ul>
             </div>
-            <div class="desc-2">
-            </div>
-            <div class="img-container">
+            <div class="col-3" />
+
+            <div class="col-3">
                 <img src="../assets/studio/studio-3.png" alt="">
             </div>
         </div>
@@ -75,39 +70,7 @@
 </script>
 
 <style lang="scss" scoped>
-.studio-view {
-    width: 100%;
-    padding: 100px;
-    padding-bottom: 0;
-    font-size: 24px;
-    text-align: justify;
-
-    .studio-item {
-        display: flex;
-        width: 100%;
-        height: calc(100vh - 100px);
-        justify-content: space-between;
-
-        div {
-            width: 25%;
-        }
-
-        div.title{
-            width: 15%;
-        }
-
-        .img-container img {
-            width: 100%;
-        }
-    }
+.sticky-top{
+    top: 20px;
 }
-
-ul {
-    list-style: none;
-
-    li {
-        margin-bottom: 15px;
-    }
-}
-
 </style>

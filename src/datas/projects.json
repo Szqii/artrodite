@@ -1,5 +1,6 @@
 {
     "berkand": {
+        "name": "berkand",
         "title": "Berkand Makina",
         "titleDesc": "Kablo Makinaları üreticisi",
         "date": "05.10.2022",
@@ -7,6 +8,7 @@
         "img": "berkand.png"
     },
     "plasmet": {
+        "name": "plasmet",
         "title": "Plasmet",
         "titleDesc": "Yapı Çözümleri",
         "date": "24.11.2022",
@@ -14,6 +16,7 @@
         "img": "plasmet.png"
     },
     "havalan": {
+        "name": "havalan",
         "title": "Havalan",
         "titleDesc": "Havalandırma Çözümleri",
         "date": "18.12.2022",
@@ -21,6 +24,7 @@
         "img": "havalan.png"
     },
     "yamu": {
+        "name": "yamu",
         "title": "Yamu",
         "titleDesc": "Alışveriş yaparken kâr elde edin.",
         "date": "24.11.2022",

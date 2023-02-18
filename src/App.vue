@@ -1,8 +1,16 @@
 <template>
   <div>
     <Navbar />
-    <router-view />
-    <div @click="scrollToTop" class="scroll-to-top-button">
+    <router-view v-slot="{ Component, route }">
+      <transition name="fade" mode="out-in" 
+        enter-active-class="animate__animated animate__fadeInLeftBig animate__faster"
+        leave-active-class="animate__animated animate__fadeOutRightBig animate__faster">
+        <div :key="route.name">
+          <component :is="Component" />
+        </div>
+      </transition>
+    </router-view>
+    <div @click="scrollToTop" class="scroll-to-top-button slide-up-down" >
       <i class="fa-solid fa-chevron-up"></i>
     </div>
   </div>
@@ -19,7 +27,9 @@ const scrollToTop = () => {
 </script>
 
 <style lang="scss">
-@import url('./css/_animation.scss');
+@import './css/_animation.scss';
+@import '~bootstrap/dist/css/bootstrap.css';
+
 
 @font-face {
   font-family: "Satoshi-Variable";
@@ -37,6 +47,13 @@ body {
   font-family: "Satoshi-Variable";
   background: #F3F3F3;
   font-weight: 300;
+  overflow-x: hidden;
+  font-size: 20px;
+}
+
+.makeItBlack {
+    color: black;
+    font-weight: 500;
 }
 
 ::selection {

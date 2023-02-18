@@ -1,89 +1,44 @@
 <template>
-    <div class="container">
-        <div class="column">
-            <div class="text">
+    <div class="row" style="height: calc(100vh - 100pxv); max-width: 100vw; padding: 0 100px;">
+        <div class="col-3">
+            <span style="font-weight: 700;">
                 İletişim
-            </div>
+            </span>
 
         </div>
-        <div class="column">
-            <div class="text desc">
-                Her projeye özenle çalıştığımız için başarılıyız.
+        <div class="col-3 d-flex flex-column justify-content-between">
+            <div class="text-justify">
+                Basit ve hazır tasarımlar değil, <br> <span class="makeItBlack"> sanat eserleri </span> oluşturuyoruz.
             </div>
-            <div class="img-container">
-                <img src="../assets/contact/contact-1.png"
-                    alt="">
-            </div>
-        </div>
-        <div class="column">
-            <div class="text">
-                <div class="instagram-link">
-                    <a  href="https://www.instagram.com/artrodite_studio/" target="_blank">Instagram <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                </div>
-                <div>
-                    <a href="https://www.linkedin.com/company/artrodite/" target="_blank">LinkedIn <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
-                </div>
+            <img src="../assets/contact/contact-1.png" alt="">
 
-            </div>
-            <div class="img-container">
-                <img src="../assets/contact/contact-2.png"
-                    alt="">
-            </div>
         </div>
-        <div class="column">
-            <div class="text">
-                <a href="mailto:artrodite@gmail.com">Email <i class="fa-solid fa-arrow-up-right-from-square"></i> </a>
+        <div class="col-3 d-flex flex-column justify-content-between">
+            <div class="d-flex flex-column gap-4">
+                <a href="https://www.instagram.com/artrodite_studio/" target="_blank">Instagram <i class="fa fa-arrow-up-right-from-square"></i> </a>
+                <a href="https://www.linkedin.com/company/artrodite/" target="_blank">LinkedIn <i class="fa fa-arrow-up-right-from-square"></i> </a>
             </div>
-            <div class="img-container">
-                <img src="../assets/contact/contact-3.png"
-                    alt="">
+            <img src="../assets/contact/contact-2.png" alt="">
+
+        </div>
+        <div class="col-3 d-flex flex-column justify-content-between">
+            <div>
+                <a href="mailto:artrodite@gmail.com">Email <i class="fa fa-arrow-up-right-from-square"></i> </a>
             </div>
+            <img src="../assets/contact/contact-3.png" alt="">
         </div>
     </div>
 </template>
 
 
 <style lang="scss" scoped>
-.container {
-    padding: 100px;
-    height: 100vh;
-    display: flex;
-    justify-content: space-between;
+img {
+    max-width: 100%;
+    object-fit: contain;
 }
 
-.column {
-    width: 20%;
-    height: calc(100% - 100px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-
-    &:last-child {
-        margin-right: 0;
-    }
-
-    .text {
-        font-size: 24px;
-        line-height: 32.4px;
-        height: 300px;
-
-        .instagram-link{
-            margin-bottom: 70px;
-        }
-    }
-
-    .desc{
-        max-width: 70%;
-    }
-
-    .img-container {
-        display: flex;
-        img{
-            max-width: 100%;
-            max-height: 100%;
-        }
-    }
-
+.col-3 {
+    max-height: 600px;
 }
 
 i{

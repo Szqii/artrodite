@@ -14,7 +14,19 @@ const routes = [
   {
     path: '/projects',
     name: 'projects',
-    component: () => import( '../views/ProjectsView.vue')
+    component: () => import( '../views/ProjectsView.vue'),
+    children: [
+      {
+        path: '',
+        name: 'projects',
+        component: () => import( '../components/Projects.vue')
+      },
+      {
+        path: '/projects/berkand',
+        name: 'berkand',
+        component: () => import( '../components/Projects/berkand-project.vue')
+      }
+    ]
   },
   {
     path: '/studio',
