@@ -1,7 +1,7 @@
 <template>
     <div class="row px-100" style="max-width: 100vw;">
         <div class="col-3 position-relative">
-            <div class="sticky-top animate__animated animate__fadeInUp" style="top: 20px; font-weight: 700; cursor: default;">Projeler</div>
+            <div class="sticky-top animate__animated animate__fadeInUp" style="top: 20px; font-weight: 700; font-size: 24px; cursor: default;">Projeler</div>
         </div>
         <div class="col-9">
             <div class="row justify-content-between" style="height: 100vh;" v-for="(project, index) in projectList"
