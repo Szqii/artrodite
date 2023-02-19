@@ -15,7 +15,7 @@
                 </div>
             </div>
             <div class="col-3">
-                <img src="../assets/studio/studio-1.png" alt="">
+                <img src="../assets/studio/studio-1.jpg" alt="">
             </div>
         </div>
         <div class="col-12 row" style="height: 100vh;">
@@ -38,7 +38,7 @@
             </div>
             <div class="col-3" />
             <div class="col-3">
-                <img src="../assets/studio/studio-2.png" alt="">
+                <img src="../assets/studio/studio-2.jpg" alt="">
             </div>
         </div>
         <div class="col-12 row" style="height: 100vh;">
@@ -61,7 +61,7 @@
             <div class="col-3" />
 
             <div class="col-3">
-                <img src="../assets/studio/studio-3.png" alt="">
+                <img src="../assets/studio/studio-3.jpg" alt="">
             </div>
         </div>
     </div>
