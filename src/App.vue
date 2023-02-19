@@ -1,23 +1,32 @@
 <template>
   <div>
-    <Navbar />
-    <router-view v-slot="{ Component, route }">
-      <transition name="fade" mode="out-in" 
-        enter-active-class="animate__animated animate__fadeInLeftBig animate__faster"
-        leave-active-class="animate__animated animate__fadeOutRightBig animate__faster">
-        <div :key="route.name">
-          <component :is="Component" />
+    <transition name="fade" mode="out-in" enter-active-class="animate__animated animate__fadeIn animate__faster" leave-active-class="animate__animated animate__fadeOut animate__faster">
+      <loading v-if="isLoading" />
+      <div v-else>
+        <Navbar />
+        <router-view />
+        <div @click="scrollToTop" class="scroll-to-top-button">
+          <i class="fa-solid fa-chevron-up"></i>
         </div>
-      </transition>
-    </router-view>
-    <div @click="scrollToTop" class="scroll-to-top-button slide-up-down" >
-      <i class="fa-solid fa-chevron-up"></i>
-    </div>
+      </div>
+    </transition>
   </div>
 </template>
 
 <script setup>
+import { ref } from 'vue'
 import Navbar from '@/components/Navbar.vue';
+import Loading from '@/components/Loading.vue';
+import { onMounted } from '@vue/runtime-core';
+
+
+const isLoading = ref(true);
+onMounted(() => {
+  setTimeout(() => {
+    isLoading.value = false;
+  }, 1000)
+})
+
 const scrollToTop = () => {
   window.scrollTo({
     top: 0,
@@ -46,14 +55,9 @@ const scrollToTop = () => {
 body {
   font-family: "Satoshi-Variable";
   background: #F3F3F3;
-  font-weight: 300;
   overflow-x: hidden;
-  font-size: 20px;
-}
-
-.makeItBlack {
-    color: black;
-    font-weight: 500;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 ::selection {
@@ -96,7 +100,7 @@ a {
 .scroll-to-top-button {
   position: fixed;
   bottom: 50px;
-  right: 50px;
+  right: 25px;
   color: #000;
   cursor: pointer;
   font-size: 24px;

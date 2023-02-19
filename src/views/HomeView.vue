@@ -2,7 +2,7 @@
   <div class="home">
     <Hero />
     <LastProject />
-    <OtherProjects /> 
+    <OtherProjects/> 
   </div>
 </template>
 

@@ -1,29 +1,31 @@
 <template>
-    <div class="row" style="padding: 0 100px; max-width: 100vw;">
+    <div class="row px-100" style="max-width: 100vw;">
         <div class="col-3 position-relative">
-            <div class="sticky-top" style="top: 20px; font-weight: 700; cursor: default;">Projeler</div>
+            <div class="sticky-top animate__animated animate__fadeInUp" style="top: 20px; font-weight: 700; cursor: default;">Projeler</div>
         </div>
         <div class="col-9">
             <div class="row justify-content-between" style="height: 100vh;" v-for="(project, index) in projectList"
                 :key="index">
                 <div class="col-3 d-flex flex-column">
 
-                    <span style="font-weight: 600;">
+                    <span style="font-weight: 700;" class="animate__animated animate__fadeInUp">
                         {{ project.title }}
                     </span>
 
-                    <span>
+                    <span class="animate__animated animate__fadeInUp animate__delay_100ms">
                         {{ project.titleDesc }}
                     </span>
 
-                    <span class="text-secondary">
+                    <span class="text-secondary animate__animated animate__fadeInUp animate__delay_200ms">
                         {{ project.date }}
                     </span>
                 </div>
-                <div class="col-4 text-justify">
-                    {{ project.description }}
+                <div class="col-4 d-flex ">
+                    <span class="animate__animated animate__fadeInUp text-justify" style="height: fit-content;">
+                        {{ project.description }}
+                    </span>
                 </div>
-                <div class="col-3">
+                <div class="col-4">
                     <router-link :to="'projects/' + project.name">
                         <img :src="require('@/assets/projects/' + project.img)"  :alt="project.title + ' image' " style="max-width: 100%;">
                     </router-link>

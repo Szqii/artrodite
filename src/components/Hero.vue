@@ -1,28 +1,26 @@
 <template>
-    <div class="row mx-auto justify-content-between" style="height: 100vh; padding: 0 100px;">
-        <div class="title position-relative col-3">
-            <span class="hover-underline-animation sticky-top-20" style="font-weight: 700; font-size: 24px; cursor: default;">artrodite</span>
+    <div class="row mx-auto justify-content-between align-items-start px-2 px-lg-100 h-screen overflow-hidden">
+        <div class="col-lg-3 d-none d-lg-inline-block animate__animated animate__fadeInUp">
+            <div style="font-size: 24px; top: 20px; font-weight: 700; cursor: default;">artrodite</div>
         </div>
-        <div class="desc-container row col-9">
-            <div class="desc col-4 d-flex flex-column justify-content-between">
-                <span>Artrodite <span class="makeItBlack">özgün ve kaliteli tasarımlar</span> oluşturarak
-                    alanında fark yaratmayı
-                    amaçlayan,
-                    <span class="makeItBlack">Denizli</span> merkezli bir
-                    tasarım stüdyosudur.</span>
-                <img src="../assets/hero/ss.png" alt="" style="max-width: 100%;">
+        <div class="row col-12 col-lg-9 mx-auto" style="font-weight: 500;">
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between">
+                <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">Artrodite <span class="makeItBlack">özgün ve kaliteli tasarımlar</span> oluşturarak alanında fark yaratmayı amaçlayan,
+                    <span class="makeItBlack">Denizli</span> merkezli bir tasarım stüdyosudur.</span>
+                <img src="../assets/hero/ss.png" class="d-none d-md-block mt-0 mt-md-5 " alt="" style="max-width: 100%;">
             </div>
-            <div class="desc col-4 d-flex flex-column justify-content-between">
-                <span>
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0">
+                <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
                     Çalışmalarımız sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Önceden
                         hazırlanmış taslaklar
                         kullanılmaz.</span></span>
-                <img src="../assets/hero/ss.png" alt="" style="max-width: 100%;">
+                <img src="../assets/hero/ss.png" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;">
             </div>
-            <div class="desc col-4 d-flex flex-column justify-content-between">
-                <router-link to="/studio">Detaylı Bilgi <i class="fa-solid fa-chevron-right" /> </router-link>
-                <img src="../assets/hero/ss.png" alt="" style="max-width: 100%;">
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between my-4 my-md-0">
+                <router-link class="mb-0 mb-md-5 makeItBlack animate__animated animate__fadeInUp" to="/studio">Detaylı Bilgi <i class="fa-solid fa-chevron-right" /> </router-link>
+                <img src="../assets/hero/ss.png" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;">
             </div>
+            <img src="../assets/hero/hero-mobile.jpg" class="d-block d-md-none" alt="">
         </div>
     </div>
 </template>
@@ -32,12 +30,6 @@
 </script>
 
 <style lang="scss" scoped>
-
-.desc {
-    max-height: 600px;
-    padding: 0 10px !important;
-}
-
 // .container {
 //     display: flex;
 //     justify-content: space-between;

@@ -1,30 +1,29 @@
 <template>
-    <div class="row" style="height: calc(100vh - 100pxv); max-width: 100vw; padding: 0 100px;">
+    <div class="row px-100" style="height: calc(100vh - 100px); max-width: 100vw;">
         <div class="col-3">
-            <span style="font-weight: 700;">
+            <div class="animate__animated animate__fadeInUp" style="font-weight: 700; font-size: 24px;">
                 İletişim
-            </span>
+            </div>
 
         </div>
-        <div class="col-3 d-flex flex-column justify-content-between">
-            <div class="text-justify">
-                Basit ve hazır tasarımlar değil, <br> <span class="makeItBlack"> sanat eserleri </span> oluşturuyoruz.
+        <div class="col-3 px-4 d-flex flex-column justify-content-between">
+            <div class="text-justify text-artrodite-gray animate__animated animate__fadeInUp animate__delay_100ms" style="font-weight: 500;">
+                Basit ve hazır tasarımlar değil, kişiliğe ve kimliğe özel <span class="makeItBlack"> sanat eserleri </span> oluşturuyoruz.
             </div>
             <img src="../assets/contact/contact-1.png" alt="">
 
         </div>
-        <div class="col-3 d-flex flex-column justify-content-between">
+        <div class="col-3 px-4 d-flex flex-column justify-content-between">
             <div class="d-flex flex-column gap-4">
-                <a href="https://www.instagram.com/artrodite_studio/" target="_blank">Instagram <i class="fa fa-arrow-up-right-from-square"></i> </a>
-                <a href="https://www.linkedin.com/company/artrodite/" target="_blank">LinkedIn <i class="fa fa-arrow-up-right-from-square"></i> </a>
+                <a href="https://www.instagram.com/artrodite_studio/" class="animate__animated animate__fadeInUp animate__delay_100ms" target="_blank">Instagram <i class="fa fa-arrow-up-right-from-square"></i> </a>
+                <a href="https://www.linkedin.com/company/artrodite/" class="animate__animated animate__fadeInUp animate__delay_200ms" target="_blank">LinkedIn <i class="fa fa-arrow-up-right-from-square"></i> </a>
             </div>
             <img src="../assets/contact/contact-2.png" alt="">
-
         </div>
-        <div class="col-3 d-flex flex-column justify-content-between">
-            <div>
+        <div class="col-3 px-4 d-flex flex-column justify-content-between ">
+            <di class="animate__animated animate__fadeInUp animate__delay_200ms">
                 <a href="mailto:artrodite@gmail.com">Email <i class="fa fa-arrow-up-right-from-square"></i> </a>
-            </div>
+            </di>
             <img src="../assets/contact/contact-3.png" alt="">
         </div>
     </div>
@@ -38,7 +37,8 @@ img {
 }
 
 .col-3 {
-    max-height: 600px;
+    height: 600px;
+    max-height: 800px;
 }
 
 i{

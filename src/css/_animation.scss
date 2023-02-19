@@ -9,8 +9,8 @@
     position: absolute;
     width: 100%;
     transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
+    height: 1px;
+    bottom: -1px;
     left: 0;
     background-color: #000;
     transform-origin: bottom right;
@@ -27,13 +27,100 @@
 }
 
 // TODO: move to _variables.scss
+.animate__delay_900ms{
+    animation-delay: 900ms;
+}
+.animate__delay_800ms{
+    animation-delay: 800ms;
+}
+.animate__delay_700ms{
+    animation-delay: 700ms;
+}
+.animate__delay_600ms{
+    animation-delay: 600ms;
+}
+.animate__delay_500ms{
+    animation-delay: 500ms;
+}
+.animate__delay_400ms{
+    animation-delay: 400ms;
+}
+.animate__delay_300ms{
+    animation-delay: 300ms;
+}
+
+.animate__delay_200ms{
+    animation-delay: 200ms;
+}
+.animate__delay_100ms{
+    animation-delay: 100ms;
+}
+.gap-130px{
+    gap: 130px;
+}
+.text-artrodite-gray{
+    color: #525252;
+}
+.makeItBlack {
+    color: black;
+}
+.bg-artrodite{
+    background-color: #F3F3F3;
+}
+
+.h-screen{
+    height: calc(100vh - 100px);
+}
+.h-md-screen{
+    @media (min-width: 768px) {
+        height: calc(100vh - 100px);
+    }
+}
+
+.h-100vh{
+    height: 100vh !important;
+}
+
+.h-md-100vh{
+    @media (min-width: 768px) {
+        height: 100vh !important;
+    }
+}
+
 .text-justify{ 
     text-align: justify;
 }
 
 .sticky-top-20{
-    position: sticky;
+    position: sticky !important;
     top: 20px;
+}
+
+.mb-100{
+    margin-bottom: 100px;
+}
+
+.mb-md-100{
+    @media (min-width: 768px) {
+        margin-bottom: 100px !important;
+    }
+}
+.mb-lg-100{
+    @media (min-width: 992px) {
+        margin-bottom: 100px !important;
+    }
+}
+
+.px-100{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.px-lg-100{
+    @media (min-width: 992px) {
+        padding-left: 100px !important;
+        padding-right: 100px !important;
+    }
 }
 
 @keyframes slideUpDown {

@@ -1,25 +1,31 @@
 <template>
-    <div class="row w-100" style="padding: 16px 100px; margin-bottom: 100px;">
-        <div class="logo col-3" style="cursor: pointer;">
-            <router-link to="/">
+    <div class="row w-100 bg-artrodite mx-0 mb-4 mb-md-100 justify-content-between"
+        style="padding: 16px 100px; max-width: 100vw;">
+        <div class="col-12 col-md-3" style="cursor: pointer;">
+            <router-link to="/" class="logo">
                 <img src="../assets/navbar/logo.svg" alt="logo">
             </router-link>
         </div>
-        <div class="router-container col-9 text-end">
-            <router-link class="hover-underline-animation ms-4" to="/"> <i class="fa fa-circle" /> Anasayfa</router-link>
-            <router-link class="hover-underline-animation ms-4" to="/projects"><i class="fa fa-circle" /> Projeler</router-link>
-            <router-link class="hover-underline-animation ms-4" to="/studio"><i class="fa fa-circle" /> Stüdyo</router-link>
-            <router-link class="hover-underline-animation ms-4" to="/contact"><i class="fa fa-circle" /> İletişim</router-link>
+
+        <div class="router-container col-9 text-end d-none d-md-flex row justify-content-between">
+            <div class="col-4 text-start">
+                <router-link class="me-4 hover-underline-animation" to="/"> Anasayfa</router-link>
+                <router-link class="me-4 hover-underline-animation" to="/projects">Projeler</router-link>
+                <router-link class="hover-underline-animation" to="/studio"> Stüdyo</router-link>
+            </div>
+            <div class="col-4 px-4">
+                <router-link class="contact-btn btn btn-dark" to="/contact">Bize Ulaşın</router-link>
+            </div>
         </div>
     </div>
 </template>
 
 <style lang="scss" scoped>
- a{
+a {
 
-     font-weight: 500;
-     padding: 5px 10px;
- }
+    font-weight: 500;
+    padding: 5px 0;
+}
 
 i {
     opacity: 0;
@@ -27,10 +33,23 @@ i {
     margin-right: 5px;
 }
 
+.logo{
+    border: none !important;
+}
+
 .router-link-active,
 .router-link-exact-active {
-    i {
-        opacity: 1;
-    }
+    border-bottom: 1px solid black;
+}
+
+.contact-btn {
+    font-weight: 700;
+    padding: 2px 20px;
+    margin-left: 20px;
+}
+
+.contact-btn:hover {
+    background-color: #fff !important;
+    color: #000 !important;
 }
 </style>
