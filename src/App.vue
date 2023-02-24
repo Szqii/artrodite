@@ -2,9 +2,10 @@
   <div>
     <transition name="fade" mode="out-in" enter-active-class="animate__animated animate__fadeIn animate__faster" leave-active-class="animate__animated animate__fadeOut animate__faster">
       <loading v-if="isLoading" />
-      <div v-else>
+      <div v-else class="position-relative">
         <Navbar />
         <router-view />
+        <Footer />
         <div @click="scrollToTop" class="scroll-to-top-button">
           <i class="fa-solid fa-chevron-up"></i>
         </div>
@@ -17,6 +18,7 @@
 import { ref } from 'vue'
 import Navbar from '@/components/Navbar.vue';
 import Loading from '@/components/Loading.vue';
+import Footer from '@/components/Footer.vue';
 import { onMounted } from '@vue/runtime-core';
 
 

@@ -9,12 +9,12 @@
         </div>
 
         <div class="router-container col-9 text-end d-none d-md-flex row justify-content-between">
-            <div class="col-4 text-start">
+            <div class="col-4 text-start" style="font-size: 16px;">
                 <router-link class="me-4 hover-underline-animation" to="/"> Anasayfa</router-link>
                 <router-link class="me-4 hover-underline-animation" to="/projects">Projeler</router-link>
                 <router-link class="hover-underline-animation" to="/studio"> Stüdyo</router-link>
             </div>
-            <div class="col-4 px-4">
+            <div class="col-4 px-4" style="font-size: 16px;">
                 <router-link class="contact-btn btn btn-dark" to="/contact">Bize Ulaşın</router-link>
             </div>
         </div>

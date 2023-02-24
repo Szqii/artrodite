@@ -6,9 +6,13 @@
         </div>
         <div class="projects-container col-12 col-lg-9 row justify-content-between gap-4">
             <div class="col-lg-5" style="height: fit-content;">
-                <img style="max-width: 100%;" src="../assets/projects/berkand.gif" alt="">
+                <router-link to="projects/berkand">
+                    <img style="max-width: 100%;" src="../assets/projects/berkand.gif" alt="">
+                </router-link>
                 <div class="d-flex flex-column mt-4">
-                    <span class="mb-2">Berkand Makina</span>
+                    <router-link to="projects/berkand">
+                        <span class="mb-2 hover-underline-animation">Berkand Makina</span>
+                    </router-link>
                     <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Kablo Makinaları Üreticisi</span>
                 </div>
             </div>

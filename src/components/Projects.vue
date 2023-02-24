@@ -7,10 +7,11 @@
             <div class="row justify-content-between" style="height: 100vh;" v-for="(project, index) in projectList"
                 :key="index">
                 <div class="col-3 d-flex flex-column">
-
-                    <span class="animate__animated animate__fadeInUp">
-                        {{ project.title }}
-                    </span>
+                    <router-link :to="'projects/' + project.name">
+                        <span class="animate__animated animate__fadeInUp hover-underline-animation">
+                            {{ project.title }}
+                        </span>
+                    </router-link>
 
                     <span class="animate__animated animate__fadeInUp animate__delay_100ms text-artrodite-gray fw-light" style="font-size: 16px;">
                         {{ project.titleDesc }}

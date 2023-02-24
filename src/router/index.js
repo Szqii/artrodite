@@ -25,6 +25,21 @@ const routes = [
         path: '/projects/berkand',
         name: 'berkand',
         component: () => import( '../components/Projects/berkand-project.vue')
+      },
+       {
+        path: '/projects/plasmet',
+        name: 'plasmet',
+        component: () => import( '../components/Development.vue')
+      },
+       {
+        path: '/projects/havalan',
+        name: 'havalan',
+        component: () => import( '../components/Development.vue')
+      },
+       {
+        path: '/projects/yamu',
+        name: 'yamu',
+        component: () => import( '../components/Development.vue')
       }
     ]
   },
@@ -32,7 +47,10 @@ const routes = [
     path: '/studio',
     name: 'studio',
     component: () => import( '../views/StudioView.vue')
-  }
+  },
+  { 
+    path: '/:pathMatch(.*)*', 
+    component: () => import( '../components/404.vue') }
 ]
 
 const router = createRouter({

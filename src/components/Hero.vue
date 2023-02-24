@@ -4,12 +4,12 @@
             <div class="title-text" style="cursor: default;">artrodite</div>
         </div>
         <div class="row col-12 col-lg-9 mx-auto">
-            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between">
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between text-justify">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">Artrodite <span class="makeItBlack">özgün ve kaliteli tasarımlar</span> oluşturarak alanında fark yaratmayı amaçlayan,
                     <span class="makeItBlack">Denizli</span> merkezli bir tasarım stüdyosudur.</span>
                 <img src="../assets/hero/ss.png" class="d-none d-md-block mt-0 mt-md-5 " alt="" style="max-width: 100%;">
             </div>
-            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0">
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0 text-justify">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
                     Çalışmalarımız sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Önceden
                         hazırlanmış taslaklar
