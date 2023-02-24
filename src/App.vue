@@ -5,7 +5,7 @@
       <div v-else class="position-relative">
         <Navbar />
         <router-view />
-        <Footer />
+        <!-- <Footer /> -->
         <div @click="scrollToTop" class="scroll-to-top-button">
           <i class="fa-solid fa-chevron-up"></i>
         </div>
@@ -18,7 +18,7 @@
 import { ref } from 'vue'
 import Navbar from '@/components/Navbar.vue';
 import Loading from '@/components/Loading.vue';
-import Footer from '@/components/Footer.vue';
+// import Footer from '@/components/Footer.vue';
 import { onMounted } from '@vue/runtime-core';
 
 

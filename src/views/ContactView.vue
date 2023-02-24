@@ -7,23 +7,33 @@
 
         </div>
         <div class="col-3 px-4 d-flex flex-column justify-content-between">
-            <div class="text-justify text-artrodite-gray animate__animated animate__fadeInUp animate__delay_100ms" style="font-weight: 500;">
-                Basit ve hazır tasarımlar değil, kişiliğe ve kimliğe özel <span class="makeItBlack"> sanat eserleri </span> oluşturuyoruz.
+            <div class="text-justify text-artrodite-gray animate__animated animate__fadeInUp animate__delay_100ms"
+                style="font-weight: 500;">
+                Basit ve hazır tasarımlar değil, kişiliğe ve kimliğe özel <span class="makeItBlack"> sanat eserleri </span>
+                oluşturuyoruz.
             </div>
             <img src="../assets/contact/contact-1.png" alt="">
 
         </div>
         <div class="col-3 px-4 d-flex flex-column justify-content-between">
-            <div class="d-flex flex-column gap-4">
-                <a href="https://www.instagram.com/artrodite_studio/" class="animate__animated animate__fadeInUp animate__delay_100ms" target="_blank">Instagram <i class="fa fa-arrow-up-right-from-square"></i> </a>
-                <a href="https://www.linkedin.com/company/artrodite/" class="animate__animated animate__fadeInUp animate__delay_200ms" target="_blank">LinkedIn <i class="fa fa-arrow-up-right-from-square"></i> </a>
+            <div class="d-flex justify-content-between">
+                <a href="https://www.instagram.com/artrodite_studio/"
+                    class="animate__animated animate__fadeInUp animate__delay_100ms hover-underline-animation" target="_blank">Instagram <i
+                        class="fa fa-arrow-up-right-from-square"></i> </a>
+                <a href="https://www.linkedin.com/company/artrodite/"
+                    class="animate__animated animate__fadeInUp animate__delay_200ms hover-underline-animation" target="_blank">LinkedIn <i
+                        class="fa fa-arrow-up-right-from-square"></i> </a>
             </div>
             <img src="../assets/contact/contact-2.png" alt="">
         </div>
         <div class="col-3 px-4 d-flex flex-column justify-content-between ">
-            <di class="animate__animated animate__fadeInUp animate__delay_200ms">
-                <a href="mailto:artrodite@gmail.com">Email <i class="fa fa-arrow-up-right-from-square"></i> </a>
-            </di>
+            <div class="d-flex justify-content-between">
+                <a href="https://www.twitter.com/artrodite/"
+                    class="animate__animated animate__fadeInUp animate__delay_200ms hover-underline-animation" target="_blank">Twitter <i
+                        class="fa fa-arrow-up-right-from-square"></i> </a>
+                <a href="mailto:artrodite@gmail.com" class="animate__animated animate__fadeInUp animate__delay_100ms hover-underline-animation"
+                    target="_blank">Email <i class="fa fa-arrow-up-right-from-square"></i> </a>
+            </div>
             <img src="../assets/contact/contact-3.png" alt="">
         </div>
     </div>
@@ -41,8 +51,7 @@ img {
     max-height: 800px;
 }
 
-i{
+i {
     margin-left: 10px;
     font-size: 20px;
-}
-</style>
+}</style>

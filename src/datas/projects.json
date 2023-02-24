@@ -12,7 +12,7 @@
         "title": "Plasmet",
         "titleDesc": "Yapı Çözümleri",
         "date": "24.11.2022",
-        "description": "",
+        "description": "Yakında",
         "img": "plasmet.png"
     },
     "havalan": {
@@ -20,7 +20,7 @@
         "title": "Havalan",
         "titleDesc": "Havalandırma Çözümleri",
         "date": "18.12.2022",
-        "description": "",
+        "description": "Yakında",
         "img": "havalan.png"
     },
     "yamu": {
@@ -28,7 +28,7 @@
         "title": "Yamu",
         "titleDesc": "Alışveriş yaparken kâr elde edin.",
         "date": "24.11.2022",
-        "description": "",
+        "description": "Yakında",
         "img": "yamu.png"
     }
 }

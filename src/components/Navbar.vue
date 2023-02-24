@@ -1,6 +1,6 @@
 <template>
-    <div class="row w-100 bg-artrodite mx-0 mb-4 mb-md-100 justify-content-between"
-        :class="isProjectPage ? 'position-fixed bg-transparent' : ''"
+    <div class="row w-100  mx-0 justify-content-between"
+        :class="isProjectPage ? 'position-absolute top-0 bg-transparent mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
         style="padding: 16px 100px; max-width: 100vw;">
         <div class="col-12 col-md-3" style="cursor: pointer;">
             <router-link to="/" class="logo">
@@ -14,7 +14,7 @@
                 <router-link class="me-4 hover-underline-animation" to="/projects">Projeler</router-link>
                 <router-link class="hover-underline-animation" to="/studio"> Stüdyo</router-link>
             </div>
-            <div class="col-4 px-4" style="font-size: 16px;">
+            <div class="col-4 px-4 d-flex align-items-center justify-content-end" style="font-size: 16px;">
                 <router-link class="contact-btn btn btn-dark" to="/contact">Bize Ulaşın</router-link>
             </div>
         </div>
@@ -71,8 +71,7 @@ i {
 }
 
 .contact-btn {
-    font-weight: 700;
-    padding: 2px 20px;
+    padding: 2px 10px;
     margin-left: 20px;
 }
 

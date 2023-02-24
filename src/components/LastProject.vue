@@ -17,23 +17,35 @@
                 </div>
             </div>
             <div class="col-lg-5">
-                <img style="max-width: 100%;" src="../assets/projects/plasmet.png" alt="">
+                <router-link to="projects/plasmet">
+                    <img style="max-width: 100%;" src="../assets/projects/plasmet.png" alt="">
+                </router-link>
                 <div class="d-flex flex-column mt-4">
-                    <span class="mb-2">Plasmet</span>
+                    <router-link to="projects/plasmet">
+                        <span class="mb-2 hover-underline-animation">Plasmet</span>
+                    </router-link>
                     <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Yapı Çözümleri</span>
                 </div>
             </div>
             <div class="col-lg-5">
-                <img style="max-width: 100%;" src="../assets/projects/havalan.png" alt="">
+                <router-link to="projects/havalan">
+                    <img style="max-width: 100%;" src="../assets/projects/havalan.png" alt="">
+                </router-link>
                 <div class="d-flex flex-column mt-4">
-                    <span class="mb-2">Havalan</span>
+                    <router-link to="projects/havalan">
+                        <span class="mb-2 hover-underline-animation">Havalan</span>
+                    </router-link>
                     <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Havalandırma Çözümleri</span>
                 </div>
             </div>
             <div class="col-lg-5" style="margin-top: 5rem;">
-                <img style="max-width: 100%;" src="../assets/projects/yamu.png" alt="">
+                <router-link to="projects/yamu">
+                    <img style="max-width: 100%;" src="../assets/projects/yamu.png" alt="">
+                </router-link>
                 <div class="d-flex flex-column mt-4">
-                    <span class="mb-2">Yamu</span>
+                    <router-link to="projects/yamu">
+                        <span class="mb-2 hover-underline-animation">Yamu</span>
+                    </router-link>
                     <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Alışveriş Yaparken Kâr Edin</span>
                 </div>
             </div>
