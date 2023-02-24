@@ -56,7 +56,7 @@ body {
   font-family: "Satoshi-Variable";
   background: #F3F3F3;
   overflow-x: hidden;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 500;
 }
 

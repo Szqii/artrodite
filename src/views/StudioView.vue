@@ -2,7 +2,7 @@
     <div class="row px-100">
         <div class="col-12 row" style="height: 100vh;">
             <div class="col-3 position-relative">
-                <div class="sticky-top animate__animated animate__fadeInUp animate__delay_100ms" style="font-weight: 700; font-size: 24px;">Biz</div>
+                <div class="sticky-top title-text animate__animated animate__fadeInUp animate__delay_100ms">Biz</div>
             </div>
             <div class="col-3 d-flex flex-column gap-130px px-4 text-justify text-artrodite-gray">
                 <span class="animate__animated animate__fadeInUp"> Günümüzde, markaların kişilikleri, algımızda çok büyük bir önem taşır. <span class="makeItBlack"> Kişilikli bir marka, </span> sizi rakiplerinizden ayırır ve öne çıkmanızı sağlar.</span>
@@ -15,12 +15,12 @@
                 </div>
             </div>
             <div class="col-3">
-                <img src="../assets/studio/studio-1.jpg" alt="">
+                <img src="../assets/studio/studio-1.png" alt="">
             </div>
         </div>
         <div class="col-12 row" style="height: 100vh;">
             <div class="col-3 position-relative">
-                <div class="sticky-top animate__animated animate__fadeInUp" style="font-weight: 700; font-size: 24px;">Metadoloji</div>
+                <div class="sticky-top title-text animate__animated animate__fadeInUp">Metadoloji</div>
             </div>
 
             <div class="col-3">
@@ -38,12 +38,12 @@
             </div>
             <div class="col-3" />
             <div class="col-3">
-                <img src="../assets/studio/studio-2.jpg" alt="">
+                <img src="../assets/studio/studio-2.png" alt="">
             </div>
         </div>
         <div class="col-12 row" style="height: 100vh;">
             <div class="col-3 position-relative">
-                <div class="sticky-top animate__animated animate__fadeInUp" style="font-weight: 700; font-size: 24px;">Çalışma Alanlarımız</div>
+                <div class="sticky-top title-text animate__animated animate__fadeInUp">Çalışma Alanlarımız</div>
             </div>
             <div class="col-3">
                 <ul class="list-unstyled d-flex flex-column gap-4">
@@ -61,7 +61,7 @@
             <div class="col-3" />
 
             <div class="col-3">
-                <img src="../assets/studio/studio-3.jpg" alt="">
+                <img src="../assets/studio/studio-3.png" alt="">
             </div>
         </div>
     </div>

@@ -2,14 +2,14 @@
   <div class="home">
     <Hero />
     <LastProject />
-    <OtherProjects/> 
+    <!-- <OtherProjects/>  -->
   </div>
 </template>
 
 <script setup>
 import Hero from '@/components/Hero.vue';
 import LastProject from '@/components/LastProject.vue';
-import OtherProjects from '@/components/OtherProjects';
+// import OtherProjects from '@/components/OtherProjects';
 
 </script>
 

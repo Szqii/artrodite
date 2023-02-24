@@ -1,5 +1,6 @@
 <template>
     <div class="row w-100 bg-artrodite mx-0 mb-4 mb-md-100 justify-content-between"
+        :class="isProjectPage ? 'position-fixed bg-transparent' : ''"
         style="padding: 16px 100px; max-width: 100vw;">
         <div class="col-12 col-md-3" style="cursor: pointer;">
             <router-link to="/" class="logo">
@@ -20,6 +21,33 @@
     </div>
 </template>
 
+<script>
+export default {
+    mounted() {
+        if (this.$route.path.includes('projects/')) {
+            this.isProjectPage = true;
+        } else {
+            this.isProjectPage = false;
+        }
+    },
+    watch: {
+        $route(to) {
+            if (to.path.includes('projects/')) {
+                this.isProjectPage = true;
+            } else {
+                this.isProjectPage = false;
+            }
+        }
+    },
+    data() {
+        return {
+            isProjectPage: false
+        }
+    }
+}
+
+</script>
+
 <style lang="scss" scoped>
 a {
 
@@ -33,7 +61,7 @@ i {
     margin-right: 5px;
 }
 
-.logo{
+.logo {
     border: none !important;
 }
 

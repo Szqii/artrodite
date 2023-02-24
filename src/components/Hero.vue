@@ -1,9 +1,9 @@
 <template>
     <div class="row mx-auto justify-content-between align-items-start px-2 px-lg-100 h-screen overflow-hidden">
         <div class="col-lg-3 d-none d-lg-inline-block animate__animated animate__fadeInUp">
-            <div style="font-size: 24px; top: 20px; font-weight: 700; cursor: default;">artrodite</div>
+            <div class="title-text" style="cursor: default;">artrodite</div>
         </div>
-        <div class="row col-12 col-lg-9 mx-auto" style="font-weight: 500;">
+        <div class="row col-12 col-lg-9 mx-auto">
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">Artrodite <span class="makeItBlack">özgün ve kaliteli tasarımlar</span> oluşturarak alanında fark yaratmayı amaçlayan,
                     <span class="makeItBlack">Denizli</span> merkezli bir tasarım stüdyosudur.</span>
