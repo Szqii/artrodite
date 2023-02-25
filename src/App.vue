@@ -5,9 +5,9 @@
       <div v-else class="position-relative">
         <Navbar />
         <router-view />
-        <!-- <Footer /> -->
-        <div @click="scrollToTop" class="scroll-to-top-button">
-          <i class="fa-solid fa-chevron-up"></i>
+        <Footer />
+        <div @click="scrollToTop" class="scroll-to-top-button bg-artrodite rounded-circle text-center d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
+        <i class="fa-solid fa-chevron-up fs-6"></i>
         </div>
       </div>
     </transition>
@@ -18,9 +18,15 @@
 import { ref } from 'vue'
 import Navbar from '@/components/Navbar.vue';
 import Loading from '@/components/Loading.vue';
-// import Footer from '@/components/Footer.vue';
-import { onMounted } from '@vue/runtime-core';
+import Footer from '@/components/Footer.vue';
+import { onMounted, watch } from '@vue/runtime-core';
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
+
+watch(() => route.path, () => {
+  scrollToTop()
+})
 
 const isLoading = ref(true);
 onMounted(() => {
@@ -56,14 +62,14 @@ const scrollToTop = () => {
 
 body {
   font-family: "Satoshi-Variable";
-  background: #F3F3F3;
+  background: #F1F1F1;
   overflow-x: hidden;
   font-size: 20px;
   font-weight: 500;
 }
 
 ::selection {
-  color: #f3f3f3;
+  color: #F1F1F1;
   background: #070707;
 }
 
@@ -102,9 +108,10 @@ a {
 .scroll-to-top-button {
   position: fixed;
   bottom: 50px;
-  right: 25px;
+  right: 20px;
   color: #000;
   cursor: pointer;
   font-size: 24px;
+
 }
 </style>

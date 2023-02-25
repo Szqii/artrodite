@@ -19,10 +19,10 @@
             <div class="d-flex justify-content-between">
                 <a href="https://www.instagram.com/artrodite_studio/"
                     class="animate__animated animate__fadeInUp animate__delay_100ms hover-underline-animation" target="_blank">Instagram <i
-                        class="fa fa-arrow-up-right-from-square"></i> </a>
+                        class="fa fa-arrow-up"></i> </a>
                 <a href="https://www.linkedin.com/company/artrodite/"
                     class="animate__animated animate__fadeInUp animate__delay_200ms hover-underline-animation" target="_blank">LinkedIn <i
-                        class="fa fa-arrow-up-right-from-square"></i> </a>
+                        class="fa fa-arrow-up"></i> </a>
             </div>
             <img src="../assets/contact/contact-2.png" alt="">
         </div>
@@ -30,9 +30,9 @@
             <div class="d-flex justify-content-between">
                 <a href="https://www.twitter.com/artrodite/"
                     class="animate__animated animate__fadeInUp animate__delay_200ms hover-underline-animation" target="_blank">Twitter <i
-                        class="fa fa-arrow-up-right-from-square"></i> </a>
+                        class="fa fa-arrow-up"></i> </a>
                 <a href="mailto:artrodite@gmail.com" class="animate__animated animate__fadeInUp animate__delay_100ms hover-underline-animation"
-                    target="_blank">Email <i class="fa fa-arrow-up-right-from-square"></i> </a>
+                    target="_blank">Email <i class="fa fa-arrow-up"></i> </a>
             </div>
             <img src="../assets/contact/contact-3.png" alt="">
         </div>
@@ -53,5 +53,8 @@ img {
 
 i {
     margin-left: 10px;
-    font-size: 20px;
-}</style>
+    font-size: smaller;
+    transform: rotate(45deg);
+    
+}
+</style>
