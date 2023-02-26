@@ -62,6 +62,16 @@
 .gap-130px{
     gap: 130px;
 }
+.gap-md-130px{
+    @media (min-width: 768px) {
+        gap: 130px;
+    }
+}
+.gap-lg-130px{
+    @media (min-width: 992px) {
+        gap: 130px;
+    }
+}
 .text-artrodite-gray{
     color: #525252;
 }
