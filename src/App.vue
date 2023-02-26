@@ -1,13 +1,17 @@
 <template>
   <div>
-    <transition name="fade" mode="out-in" enter-active-class="animate__animated animate__fadeIn animate__faster" leave-active-class="animate__animated animate__fadeOut animate__faster">
+    <transition name="fade" mode="out-in" enter-active-class="animate__animated animate__fadeIn animate__faster"
+      leave-active-class="animate__animated animate__fadeOut animate__faster">
       <loading v-if="isLoading" />
       <div v-else class="position-relative">
         <Navbar />
+        <HamburgerMenuNavbar />
         <router-view />
         <Footer />
-        <div @click="scrollToTop" class="scroll-to-top-button bg-artrodite rounded-circle text-center d-flex align-items-center justify-content-center" style="width: 40px; height: 40px;">
-        <i class="fa-solid fa-chevron-up fs-6"></i>
+        <div @click="scrollToTop"
+          class="scroll-to-top-button bg-artrodite rounded-circle text-center d-flex align-items-center justify-content-center"
+          style="width: 40px; height: 40px;">
+          <i class="fa-solid fa-chevron-up fs-6"></i>
         </div>
       </div>
     </transition>
@@ -17,6 +21,7 @@
 <script setup>
 import { ref } from 'vue'
 import Navbar from '@/components/Navbar.vue';
+import HamburgerMenuNavbar from '@/components/HamburgerMenuNavbar'
 import Loading from '@/components/Loading.vue';
 import Footer from '@/components/Footer.vue';
 import { onMounted, watch } from '@vue/runtime-core';
@@ -112,6 +117,8 @@ a {
   color: #000;
   cursor: pointer;
   font-size: 24px;
-
 }
-</style>
+
+.sticky-top {
+  z-index: 1;
+}</style>

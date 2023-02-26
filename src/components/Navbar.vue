@@ -1,5 +1,5 @@
 <template>
-    <div class="row w-100 mx-0 justify-content-between px-32px px-lg-100 py-28px"
+    <div class="d-none d-lg-flex row w-100 mx-0 justify-content-between px-32px px-lg-100 py-28px"
         :class="isProjectPage ? 'position-absolute top-0 bg-transparent mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
         style="max-width: 100vw;">
         <div class="col-9 col-md-3" style="cursor: pointer;">
@@ -17,16 +17,6 @@
             <div class="col-4 px-4 d-flex align-items-center justify-content-end" style="font-size: 16px;">
                 <router-link class="contact-btn btn btn-dark text-nowrap" to="/contact">Bize Ulaşın</router-link>
             </div>
-        </div>
-
-        <div class="col-3 d-flex d-md-none">
-            <!-- Hamburger Menu Icon -->
-            <div class="hamburger-menu-icon" @click="toggleMenu">
-                <div class="hamburger-menu-icon__line hamburger-menu-icon__line--top"></div>
-                <div class="hamburger-menu-icon__line hamburger-menu-icon__line--middle"></div>
-                <div class="hamburger-menu-icon__line hamburger-menu-icon__line--bottom"></div>
-            </div>
-
         </div>
     </div>
 </template>

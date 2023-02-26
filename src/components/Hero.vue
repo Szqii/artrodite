@@ -29,7 +29,7 @@
                 <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[2]" autoplay muted loop />
 
             </div>
-            <img src="../assets/hero/hero-mobile.jpg" class="d-block d-md-none" alt="">
+            <video src="/hero/hero-mobile-video.mov" class="d-block d-md-none " autoplay muted loop />
         </div>
     </div>
 </template>
