@@ -1,5 +1,5 @@
 <template>
-    <div class="row px-32px px-lg-100" style="max-width: 100vw;">
+    <div class="row px-32px px-lg-100 m-0" style="max-width: 100vw;">
         <div class="col-3 position-relative d-none d-lg-flex">
             <div class="sticky-top animate__animated animate__fadeInUp title-text" style="top: 150px; cursor: default;">Projeler</div>
         </div>
