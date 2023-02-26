@@ -1,5 +1,5 @@
 <template>
-    <div class="row px-32px px-lg-100 px-32px px-lg-100 mx-0" style="height: calc(100vh - 100px); max-width: 100vw;">
+    <div class="row px-32px px-lg-100 px-32px px-lg-100 mx-0 h-screen" style="max-width: 100vw;">
         <div class="col-12 col-lg-3">
             <div class="animate__animated animate__fadeInUp title-text">
                 İletişim
