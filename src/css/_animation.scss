@@ -72,6 +72,25 @@
     background-color: #F1F1F1;
 }
 
+.h-lg-screen{
+    @media (min-width: 992px) {
+        height: calc(100vh - 100px);
+    }
+}
+
+.borderY-md-1{
+    @media (min-width: 768px) {
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+}
+.borderY-lg-1{
+    @media (min-width: 992px) {
+        border-top: 1px solid #000 !important;
+        border-bottom: 1px solid #000 !important;
+    }
+}
+
 .h-screen{
     height: calc(100vh - 100px);
 }
@@ -98,6 +117,25 @@
 .sticky-top-20{
     position: sticky !important;
     top: 20px;
+}
+
+.my-100{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.my-md-100{
+    @media (min-width: 768px) {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
+.my-lg-100{
+    @media (min-width: 992px) {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
 }
 
 .mt-100{

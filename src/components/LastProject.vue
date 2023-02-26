@@ -1,5 +1,5 @@
 <template>
-    <div class="last-project-container row justify-content-between align-content-start mx-auto mx-md-0 mt-4 mt-md-0 px-4 px-lg-100 h-md-screen"
+    <div class="last-project-container row justify-content-between align-content-start mx-auto mx-md-0 my-4 my-md-100 px-4 px-lg-100"
         style="max-width: 100vw;">
         <div class="col-12 col-lg-3 mb-4 mb-lg-0">
             <span class="title-text">Son Projeler</span>

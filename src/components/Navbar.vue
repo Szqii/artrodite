@@ -1,5 +1,5 @@
 <template>
-    <div class="row w-100 mx-0 justify-content-between px-32px px-md-100 py-28px"
+    <div class="row w-100 mx-0 justify-content-between px-32px px-lg-100 py-28px"
         :class="isProjectPage ? 'position-absolute top-0 bg-transparent mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
         style="max-width: 100vw;">
         <div class="col-9 col-md-3" style="cursor: pointer;">
@@ -9,13 +9,13 @@
         </div>
 
         <div class="router-container col-9 text-end d-none d-md-flex row justify-content-between">
-            <div class="col-4 text-start" style="font-size: 16px;">
+            <div class="col-8  text-start" style="font-size: 16px;">
                 <router-link class="me-4 hover-underline-animation" to="/"> Anasayfa</router-link>
                 <router-link class="me-4 hover-underline-animation" to="/projects">Projeler</router-link>
                 <router-link class="hover-underline-animation" to="/studio"> Stüdyo</router-link>
             </div>
             <div class="col-4 px-4 d-flex align-items-center justify-content-end" style="font-size: 16px;">
-                <router-link class="contact-btn btn btn-dark" to="/contact">Bize Ulaşın</router-link>
+                <router-link class="contact-btn btn btn-dark text-nowrap" to="/contact">Bize Ulaşın</router-link>
             </div>
         </div>
 
