@@ -10,7 +10,7 @@
                     amaçlayan,
                     <span class="makeItBlack">Denizli</span> merkezli bir tasarım stüdyosudur.</span>
                 <!-- <img src="/hero/hero-1.jpg" class="d-none d-md-block mt-0 mt-md-5 " alt="" style="max-width: 100%;"> -->
-                <video class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[0]" autoplay muted loop />
+                <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[0]" autoplay muted loop />
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0 text-justify">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
@@ -18,7 +18,7 @@
                         hazırlanmış taslaklar
                         kullanılmaz.</span></span>
                 <!-- <img src="/hero/hero-2.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
-                <video class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[1]" autoplay muted loop />
+                <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[1]" autoplay muted loop />
 
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between my-4 my-md-0">
@@ -26,7 +26,7 @@
                         class="hover-underline-animation"> Detaylı Bilgi <i class="fa-solid fa-chevron-right" />
                     </span></router-link>
                 <!-- <img src="/hero/hero-3.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
-                <video class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[2]" autoplay muted loop />
+                <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[2]" autoplay muted loop />
 
             </div>
             <img src="../assets/hero/hero-mobile.jpg" class="d-block d-md-none" alt="">
