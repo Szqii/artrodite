@@ -10,7 +10,7 @@
                     amaçlayan,
                     <span class="makeItBlack">Denizli</span> merkezli bir tasarım stüdyosudur.</span>
                 <!-- <img src="/hero/hero-1.jpg" class="d-none d-md-block mt-0 mt-md-5 " alt="" style="max-width: 100%;"> -->
-                <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[0]" autoplay muted loop />
+                <video ref="video1"  v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[0]" muted loop />
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0 text-justify">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
@@ -18,7 +18,7 @@
                         hazırlanmış taslaklar
                         kullanılmaz.</span></span>
                 <!-- <img src="/hero/hero-2.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
-                <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[1]" autoplay muted loop />
+                <video ref="video2" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[1]" muted loop />
 
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between my-4 my-md-0">
@@ -26,7 +26,7 @@
                         class="hover-underline-animation"> Detaylı Bilgi <i class="fa-solid fa-chevron-right" />
                     </span></router-link>
                 <!-- <img src="/hero/hero-3.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
-                <video v-show="videosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[2]" autoplay muted loop />
+                <video ref="video3" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" :src="'/hero/' + videos[2]" muted loop />
 
             </div>
             <video src="/hero/hero-mobile-video.mov" class="d-block d-md-none " autoplay muted loop />
@@ -35,31 +35,67 @@
 </template>
 
 <script>
+// export default {
+//     data(){
+//         return {
+//             videos: ['hero-video-1.mov', 'hero-video-2.mov', 'hero-video-3.mov'],
+//             videosLoaded: false
+//         }
+//     },
+//     mounted() {
+//         const promises = [];
+//         for (let i = 0; i < this.videos.length; i++) {
+//             const promise = new Promise((resolve) => {
+//                 const video = document.createElement("video");
+//                 video.addEventListener("canplaythrough", () => {
+//                     resolve();
+//                 });
+//                 video.src = this.videos[i].url;
+//                 video.load();
+//             });
+//             promises.push(promise);
+//         }
+//         Promise.all(promises).then(() => {
+//             this.videosLoaded = true;
+//         });
+//     }
+// }
 export default {
-    data(){
+    data() {
         return {
             videos: ['hero-video-1.mov', 'hero-video-2.mov', 'hero-video-3.mov'],
-            videosLoaded: false
-        }
+            allVideosLoaded: false,
+        };
     },
     mounted() {
-        const promises = [];
-        for (let i = 0; i < this.videos.length; i++) {
-            const promise = new Promise((resolve) => {
-                const video = document.createElement("video");
-                video.addEventListener("canplaythrough", () => {
-                    resolve();
-                });
-                video.src = this.videos[i].url;
-                video.load();
-            });
-            promises.push(promise);
-        }
-        Promise.all(promises).then(() => {
-            this.videosLoaded = true;
-        });
-    }
-}
+        this.$refs.video1.addEventListener("loadeddata", this.checkAllVideosLoaded);
+        this.$refs.video2.addEventListener("loadeddata", this.checkAllVideosLoaded);
+        this.$refs.video3.addEventListener("loadeddata", this.checkAllVideosLoaded);
+    },
+    methods: {
+        checkAllVideosLoaded() {
+            if (
+                this.$refs.video1.readyState === 4 &&
+                this.$refs.video2.readyState === 4 &&
+                this.$refs.video3.readyState === 4
+            ) {
+                this.allVideosLoaded = true;
+            }
+        },
+        startVideos() {
+            this.$refs.video1.play();
+            this.$refs.video2.play();
+            this.$refs.video3.play();
+        },
+    },
+    watch: {
+        allVideosLoaded(newValue) {
+            if (newValue) {
+                this.startVideos();
+            }
+        },
+    },
+};
 
 </script>
 
