@@ -17,7 +17,7 @@
                 <div class="col-12 col-lg-5 d-flex align-items-center justify-content-between">
                     <a href="https://www.instagram.com/artrodite_studio/" class="hover-underline-animation" target="_blank"> Instagram <i class="fa fa-arrow-up"></i></a>
                     <a href="https://www.linkedin.com/company/artrodite/" class="hover-underline-animation" target="_blank">LinkedIn <i class="fa fa-arrow-up"></i></a>
-                    <a href="https://www.twitter.com/artrodite//" class="hover-underline-animation" target="_blank">Twitter <i class="fa fa-arrow-up"></i></a>
+                    <a href="https://www.twitter.com/artrodite/" class="hover-underline-animation" target="_blank">Twitter <i class="fa fa-arrow-up"></i></a>
                     <a href="mailto:artrodite@gmail.com" class="hover-underline-animation" target="_blank">Email <i class="fa fa-arrow-up"></i></a>
                 </div>
             </div>

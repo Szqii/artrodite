@@ -48,6 +48,11 @@ const routes = [
     name: 'studio',
     component: () => import( '../views/StudioView.vue')
   },
+  {
+   path: '/team',
+   name: 'team',
+   component: () => import( '../components/Development.vue')
+  },
   { 
     path: '/:pathMatch(.*)*', 
     component: () => import( '../components/404.vue') }

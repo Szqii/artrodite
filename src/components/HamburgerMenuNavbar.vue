@@ -1,5 +1,5 @@
 <template>
-    <div class="d-flex row w-100 mx-0 justify-content-between px-32px px-lg-100 py-28px"
+    <div class="d-flex d-lg-none row w-100 mx-0 justify-content-between px-32px px-lg-100 py-28px"
         :class="isProjectPage ? 'position-absolute top-0 bg-transparent mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
         style="max-width: 100vw;">
         <div class="col-9 col-md-3" style="cursor: pointer;">
