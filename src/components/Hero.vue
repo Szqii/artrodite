@@ -63,7 +63,7 @@
 export default {
     data() {
         return {
-            videos: ['hero-video-1.mov', 'hero-video-2.mov', 'hero-video-3.mov'],
+            videos: ['hero-video-1.mp4', 'hero-video-2.mp4', 'hero-video-3.mp4'],
             allVideosLoaded: false,
         };
     },
