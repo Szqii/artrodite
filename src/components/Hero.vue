@@ -29,7 +29,7 @@
                 <video ref="video3" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" src="https://res.cloudinary.com/duveeqta0/video/upload/v1677492214/hero-video-3_qnynuo.mp4" muted loop />
 
             </div>
-            <video src="/hero/hero-mobile-video.mov" class="d-block d-md-none " autoplay muted loop />
+            <video src="https://res.cloudinary.com/duveeqta0/video/upload/v1677495516/hero-mobile-video_s0xlzd.mp4" class="d-block d-md-none " autoplay muted loop />
         </div>
     </div>
 </template>
