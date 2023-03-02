@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img v-lazy="'/studio/studio-1.png'" alt="" class="w-100 animate__animated animate__fadeInRight">
+                <img v-lazy="'/studio/studio-1.png'" alt="" class="w-100 animate__animated animate__fadeIn">
             </div>
         </div>
 
@@ -28,7 +28,7 @@
             <div class="col-12 col-lg-3 position-relative my-5 my-lg-0 px-0">
                 <div class="sticky-top title-text animate__animated animate__fadeInUp">Metadoloji</div>
             </div>
-
+            
             <div class="col-12 col-lg-3">
                 <ul class="list-unstyled d-flex flex-column gap-4">
                     <li class="animate__animated animate__fadeInUp animate__delay_100ms">Dinle</li>
@@ -48,7 +48,7 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img v-lazy="'/studio/studio-2.png'" alt="" class="w-100 animate__animated animate__fadeInRight">
+                <img v-lazy="'/studio/studio-2.png'" alt="" class="w-100 animate__animated animate__fadeIn">
             </div>
         </div>
 
@@ -71,7 +71,7 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img v-lazy="'/studio/studio-3.png'" alt="" class="w-100 animate__animated animate__fadeInRight">
+                <img v-lazy="'/studio/studio-3.png'" alt="" class="w-100 animate__animated animate__fadeIn">
             </div>
         </div>
     </div>
