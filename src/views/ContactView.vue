@@ -7,7 +7,7 @@
 
         </div>
         <div class="col-lg-3 px-4 flex-column justify-content-between d-none d-lg-flex">
-            <div class="text-justify text-artrodite-gray animate__animated animate__fadeInUp animate__delay_100ms"
+            <div class="text-artrodite-gray animate__animated animate__fadeInUp animate__delay_100ms"
                 style="font-weight: 500;">
                 Basit ve hazır tasarımlar değil, kişiliğe ve kimliğe özel <span class="makeItBlack"> sanat eserleri </span>
                 oluşturuyoruz.

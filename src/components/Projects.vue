@@ -22,7 +22,7 @@
                     </span>
                 </div>
                 <div class="col-4 d-none d-lg-flex">
-                    <span class="animate__animated animate__fadeInUp text-justify" style="height: fit-content;">
+                    <span class="animate__animated animate__fadeInUp" style="height: fit-content;">
                         {{ project.description }}
                     </span>
                 </div>

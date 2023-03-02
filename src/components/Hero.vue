@@ -4,7 +4,7 @@
             <div class="title-text" style="cursor: default;">artrodite</div>
         </div>
         <div class="row col-12 col-lg-9 mx-auto">
-            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between text-justify">
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">Artrodite <span
                         class="makeItBlack">özgün ve kaliteli tasarımlar</span> oluşturarak alanında fark yaratmayı
                     amaçlayan,
@@ -14,7 +14,7 @@
                 <video ref="video1" :src="videoUrl1" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5"
                     autoplay muted loop></video>
             </div>
-            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0 text-justify">
+            <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
                     Çalışmalarımız sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Önceden
                         hazırlanmış taslaklar
