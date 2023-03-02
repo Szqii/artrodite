@@ -12,7 +12,7 @@
                 Basit ve hazır tasarımlar değil, kişiliğe ve kimliğe özel <span class="makeItBlack"> sanat eserleri </span>
                 oluşturuyoruz.
             </div>
-            <img v-lazy="'/contact/contact-1.png'" alt="">
+            <img class="animate__animated animate__fadeInUp" v-lazy="'/contact/contact-1.png'" alt="">
 
         </div>
         <div class="col-12 col-lg-3 px-lg-4 d-flex flex-column justify-content-between">
@@ -25,7 +25,7 @@
                     target="_blank">Email <i class="fa fa-arrow-up"></i> </a>
 
             </div>
-            <img class="d-none d-lg-block" v-lazy="'/contact/contact-2.png'" alt="">
+            <img class="d-none d-lg-block animate__animated animate__fadeInUp animate__delay_100ms" v-lazy="'/contact/contact-2.png'" alt="">
         </div>
         <div class="col-12 col-lg-3 px-lg-4 d-flex flex-column justify-content-between ">
             <div class="d-flex justify-content-between">
@@ -36,9 +36,9 @@
                     class="animate__animated animate__fadeInUp animate__delay_200ms hover-underline-animation"
                     target="_blank">LinkedIn <i class="fa fa-arrow-up"></i> </a>
             </div>
-            <img class="d-none d-lg-block" v-lazy="'/contact/contact-3.png'" alt="">
+            <img  class="d-none d-lg-block animate__animated animate__fadeInUp animate__delay_200ms" v-lazy="'/contact/contact-3.png'" alt="">
         </div>
-        <img v-lazy="'/contact/contact-mobile.png'" class="d-block d-lg-none w-100 px-0" alt="">
+        <img  v-lazy="'/contact/contact-mobile.png'" class="d-block d-lg-none w-100 px-0 animate__animated animate__fadeInUp" alt="">
     </div>
 </template>
 
