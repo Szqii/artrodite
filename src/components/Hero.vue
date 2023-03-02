@@ -35,7 +35,7 @@
                     autoplay muted loop></video>
             </div>
 
-            <img src="/hero/hero-mobile.jpg" class="d-block d-md-none" />
+            <img v-lazy="'/hero/hero-mobile.jpg'" class="d-block d-md-none" alt=""/>
         </div>
     </div>
 </template>

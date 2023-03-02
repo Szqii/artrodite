@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img src="/studio/studio-1.png" alt="" class="w-100">
+                <img v-lazy="'/studio/studio-1.png'" alt="" class="w-100">
             </div>
         </div>
 
@@ -48,12 +48,12 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img src="/studio/studio-2.png" alt="" class="w-100">
+                <img v-lazy="'/studio/studio-2.png'" alt="" class="w-100">
             </div>
         </div>
 
         <div class="col-12 row h-lg-screen mt-5 mx-auto mx-lg-0">
-            <div class="col-12 col-lg-3 position-relativev my-5 my-lg-0 px-0">
+            <div class="col-12 col-lg-3 position-relative my-5 my-lg-0 px-0">
                 <div class="sticky-top title-text animate__animated animate__fadeInUp">Çalışma Alanlarımız</div>
             </div>
             <div class="col-12 col-lg-3 px-0">
@@ -72,7 +72,7 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img src="/studio/studio-3.png" alt="" class="w-100">
+                <img v-lazy="'/studio/studio-3.png'" alt="" class="w-100">
             </div>
         </div>
     </div>
