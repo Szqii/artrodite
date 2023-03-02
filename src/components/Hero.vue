@@ -16,9 +16,7 @@
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
-                    Çalışmalarımız sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Önceden
-                        hazırlanmış taslaklar
-                        kullanılmaz.</span></span>
+                    Çalışmalarımız sizin ihtiyaçlarınıza özel olarak tasarlanır. <span class="makeItBlack"> Önceden hazırlanmış taslaklar kullanılmaz.</span></span>
                 <!-- <img src="/hero/hero-2.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
                 <!-- <video ref="video2" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" src="https://res.cloudinary.com/duveeqta0/video/upload/v1677492213/hero-video-2_b7ilok.mp4" muted loop /> -->
                 <video ref="video2" :src="videoUrl2" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5"
