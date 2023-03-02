@@ -20,7 +20,7 @@
                 </div>
             </div>
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img v-lazy="'/studio/studio-1.png'" alt="" class="w-100">
+                <img v-lazy="'/studio/studio-1.png'" alt="" class="w-100 animate__animated animate__fadeInRight">
             </div>
         </div>
 
@@ -48,7 +48,7 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img v-lazy="'/studio/studio-2.png'" alt="" class="w-100">
+                <img v-lazy="'/studio/studio-2.png'" alt="" class="w-100 animate__animated animate__fadeInRight">
             </div>
         </div>
 
@@ -71,7 +71,7 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img v-lazy="'/studio/studio-3.png'" alt="" class="w-100">
+                <img v-lazy="'/studio/studio-3.png'" alt="" class="w-100 animate__animated animate__fadeInRight">
             </div>
         </div>
     </div>

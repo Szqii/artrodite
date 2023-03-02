@@ -28,7 +28,7 @@
                 </div>
                 <div class="col-12 col-lg-4" style="height: fit-content;">
                     <router-link :to="'projects/' + project.name">
-                        <img class="animate__animated animate__fadeInUp" :src="require('@/assets/projects/' + project.img)"  :alt="project.title + ' image' " style="max-width: 100%; aspect-ratio: 1; object-fit: cover;">
+                        <img class="animate__animated animate__fadeInRight" :src="require('@/assets/projects/' + project.img)"  :alt="project.title + ' image' " style="max-width: 100%; aspect-ratio: 1; object-fit: cover;">
                     </router-link>
                 </div>
             </div>
