@@ -20,12 +20,12 @@
                 </div>
             </div>
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img src="../assets/studio/studio-1.png" alt="" class="w-100">
+                <img src="/studio/studio-1.png" alt="" class="w-100">
             </div>
         </div>
 
         <div class="col-12 row h-lg-screen mt-5 mx-auto mx-lg-0 text-center text-lg-start">
-            <div class="col-12 col-lg-3 position-relative my-5 my-lg-0">
+            <div class="col-12 col-lg-3 position-relative my-5 my-lg-0 px-0">
                 <div class="sticky-top title-text animate__animated animate__fadeInUp">Metadoloji</div>
             </div>
 
@@ -48,15 +48,15 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img src="../assets/studio/studio-2.png" alt="" class="w-100">
+                <img src="/studio/studio-2.png" alt="" class="w-100">
             </div>
         </div>
 
         <div class="col-12 row h-lg-screen mt-5 mx-auto mx-lg-0">
-            <div class="col-12 col-lg-3 position-relativev my-5 my-lg-0">
+            <div class="col-12 col-lg-3 position-relativev my-5 my-lg-0 px-0">
                 <div class="sticky-top title-text animate__animated animate__fadeInUp">Çalışma Alanlarımız</div>
             </div>
-            <div class="col-12 col-lg-3">
+            <div class="col-12 col-lg-3 px-0">
                 <ul class="list-unstyled d-flex flex-column gap-4">
                     <li class="animate__animated animate__fadeInUp animate__delay_100ms"> Kurumsal Kimlik Tasarımı </li>
                     <li class="animate__animated animate__fadeInUp animate__delay_200ms"> UI - UX Tasarımı </li>
@@ -72,7 +72,7 @@
             </div>
             <div class="col-12 col-lg-3" />
             <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
-                <img src="../assets/studio/studio-3.png" alt="" class="w-100">
+                <img src="/studio/studio-3.png" alt="" class="w-100">
             </div>
         </div>
     </div>

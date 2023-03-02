@@ -7,7 +7,7 @@
         <div class="projects-container mx-auto col-12 col-lg-9 row justify-content-between gap-5 gap-md-2">
             <div class="col-lg-5 px-0" style="height: fit-content;">
                 <router-link to="projects/berkand">
-                    <img style="max-width: 100%;" src="../assets/projects/berkand.gif" alt="">
+                    <img style="max-width: 100%;" src="/projects/berkand.gif" alt="">
                 </router-link>
                 <div class="d-flex flex-column mt-4">
                     <router-link to="projects/berkand">
@@ -18,7 +18,7 @@
             </div>
             <div class="col-lg-5 px-0">
                 <router-link to="projects/plasmet">
-                    <img style="max-width: 100%;" src="../assets/projects/plasmet.png" alt="">
+                    <img style="max-width: 100%;" src="/projects/plasmet.png" alt="">
                 </router-link>
                 <div class="d-flex flex-column mt-4">
                     <router-link to="projects/plasmet">
@@ -29,7 +29,7 @@
             </div>
             <div class="col-lg-5 px-0">
                 <router-link to="projects/havalan">
-                    <img style="max-width: 100%;" src="../assets/projects/havalan.png" alt="">
+                    <img style="max-width: 100%;" src="/projects/havalan.png" alt="">
                 </router-link>
                 <div class="d-flex flex-column mt-4">
                     <router-link to="projects/havalan">
@@ -40,7 +40,7 @@
             </div>
             <div class="col-lg-5 px-0 mt-0 mt-md-5rem">
                 <router-link to="projects/yamu">
-                    <img style="max-width: 100%;" src="../assets/projects/yamu.png" alt="">
+                    <img style="max-width: 100%;" src="/projects/yamu.png" alt="">
                 </router-link>
                 <div class="d-flex flex-column mt-4">
                     <router-link to="projects/yamu">

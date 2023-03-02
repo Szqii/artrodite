@@ -1,6 +1,6 @@
 <template>
-        <div class="w-100 d-flex align-items-start justify-content-center" style="height: 100vh;">
-            <div class="d-flex flex-column align-items-center justify-content-between" style="height: 60%;">
+        <div class="w-100 d-flex align-items-start align-items-md-center justify-content-center" style="height: 100vh;">
+            <div class="d-flex flex-column align-items-center justify-content-between px-2" style="height: 60%;">
                 <img src="../assets/error/404.png" alt="">
                 <div class="d-flex flex-column text-center">
                     <span style="font-size: 32px;"> 🫥 Sayfa Bulunamadı </span>

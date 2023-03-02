@@ -11,7 +11,8 @@
                     <span class="makeItBlack">Denizli</span> merkezli bir tasarım stüdyosudur.</span>
                 <!-- <img src="/hero/hero-1.jpg" class="d-none d-md-block mt-0 mt-md-5 " alt="" style="max-width: 100%;"> -->
                 <!-- <video ref="video1"  v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" src="https://res.cloudinary.com/duveeqta0/video/upload/v1677492220/hero-video-1_iti3qj.mp4" muted loop /> -->
-                    <video ref="video1" :src="videoUrl1" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" autoplay muted loop></video>
+                <video ref="video1" :src="videoUrl1" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5"
+                    autoplay muted loop></video>
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between mt-4 mt-md-0 text-justify">
                 <span class="mb-0 mb-md-5 text-artrodite-gray animate__animated animate__fadeInUp">
@@ -20,7 +21,8 @@
                         kullanılmaz.</span></span>
                 <!-- <img src="/hero/hero-2.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
                 <!-- <video ref="video2" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" src="https://res.cloudinary.com/duveeqta0/video/upload/v1677492213/hero-video-2_b7ilok.mp4" muted loop /> -->
-                        <video ref="video2" :src="videoUrl2" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" autoplay muted loop></video>
+                <video ref="video2" :src="videoUrl2" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5"
+                    autoplay muted loop></video>
 
             </div>
             <div class="col-12 col-md-4 px-4 d-flex flex-column justify-content-between my-4 my-md-0">
@@ -29,10 +31,11 @@
                     </span></router-link>
                 <!-- <img src="/hero/hero-3.jpg" class="d-none d-md-block mt-0 mt-md-5" alt="" style="max-width: 100%;"> -->
                 <!-- <video ref="video3" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" src="https://res.cloudinary.com/duveeqta0/video/upload/v1677492214/hero-video-3_qnynuo.mp4" muted loop /> -->
-                <video ref="video3" :src="videoUrl3" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5" autoplay muted loop></video>
+                <video ref="video3" :src="videoUrl3" v-show="allVideosLoaded" class="rounded d-none d-md-block mt-0 mt-md-5"
+                    autoplay muted loop></video>
             </div>
-            
-            <video :src="videoUrlMobile" ref="videoMobile" class="d-block d-md-none" autoplay muted loop/>
+
+            <img src="/hero/hero-mobile.jpg" class="d-block d-md-none" />
         </div>
     </div>
 </template>
@@ -76,7 +79,7 @@ export default {
             videoUrl1: "",
             videoUrl2: "",
             videoUrl3: "",
-            videoUrlMobile: "",
+            
         };
     },
     async mounted() {
@@ -86,7 +89,7 @@ export default {
         this.$refs.video3.addEventListener("loadeddata", this.checkAllVideosLoaded);
     },
     methods: {
-        setVideoUrls(){
+        setVideoUrls() {
             this.videoUrl1 = this.imageKit.url({
                 path: "/hero-video-1.mp4?tr=f-auto",
             });
@@ -95,9 +98,6 @@ export default {
             });
             this.videoUrl3 = this.imageKit.url({
                 path: "/hero-video-3.mp4?tr=f-auto",
-            });
-            this.videoUrlMobile = this.imageKit.url({
-                path: "/hero-mobile-video-low.mp4?tr=f-auto",
             });
         },
         checkAllVideosLoaded() {
@@ -114,9 +114,6 @@ export default {
             this.$refs.video2.play();
             this.$refs.video3.play();
         },
-        // startMobileVideo() {
-        //     this.$refs.videoMobile.play();
-        // },
     },
     watch: {
         allVideosLoaded(newValue) {
@@ -160,5 +157,4 @@ export default {
 //             width: 100%;
 //         }
 //     }
-// }
-</style>
+// }</style>
