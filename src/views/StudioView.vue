@@ -59,14 +59,12 @@
             <div class="col-12 col-lg-3 px-0">
                 <ul class="list-unstyled d-flex flex-column gap-4">
                     <li class="animate__animated animate__fadeInUp animate__delay_100ms"> Kurumsal Kimlik Tasarımı </li>
-                    <li class="animate__animated animate__fadeInUp animate__delay_200ms"> UI - UX Tasarımı </li>
-                    <li class="animate__animated animate__fadeInUp animate__delay_300ms"> Logo Tasarımı </li>
                     <li class="animate__animated animate__fadeInUp animate__delay_400ms"> Website Tasarımı </li>
-                    <li class="animate__animated animate__fadeInUp animate__delay_500ms"> Mobil Uygulama </li>
+                    <li class="animate__animated animate__fadeInUp animate__delay_300ms"> Logo Tasarımı </li>
                     <li class="animate__animated animate__fadeInUp animate__delay_700ms"> Katalog Tasarımı </li>
                     <li class="animate__animated animate__fadeInUp animate__delay_800ms"> Ambalaj Tasarmı </li>
-                    <li class="animate__animated animate__fadeInUp animate__delay_900ms"> Kartvizit Tasarımı </li>
-                    <li class="animate__animated animate__fadeInUp animate__delay_600ms"> Reklamcılık </li>
+                    <li class="animate__animated animate__fadeInUp animate__delay_900ms"> Fotoğrafçılık ve Videografi</li>
+                    <li class="animate__animated animate__fadeInUp animate__delay_600ms"> Sosyal Medya Yönetimi </li>
                 </ul>
             </div>
             <div class="col-12 col-lg-3" />
