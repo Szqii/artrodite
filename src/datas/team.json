@@ -3,29 +3,6 @@
     "name": "Oğuzhan Dican",
     "title": "Sanat Yönetmeni",
     "birthdate": "18.02.1999",
-    "skills": [
-      {
-        "figma": "figma"
-      },
-      {
-        "figma": "figma"
-      },
-      {
-        "figma": "figma"
-      },
-      {
-        "figma": "figma"
-      },
-      {
-        "figma": "figma"
-      },
-      {
-        "figma": "figma"
-      },
-      {
-        "figma": "figma"
-      }
-    ],
     "descriptions": [
       "Merhaba ben Oğuzhan! Şu anda Pamukkale Üniversitesi'nde İngiliz dili ve edebiyatı okuyorum. Tasarım yapmayı, arkeolojiyi ve video oyunlarını seviyorum!",
       "Özgün tasarımlar oluşturmak, araştırma yapmak ve takım çalışması içerisinde olmaktan mutlu oluyorum."
@@ -34,19 +11,19 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://www.instagram.com/sezgi.wtf/"
+        "url": "https://www.instagram.com/oguzhandican/"
       },
       {
         "name": "E-mail",
-        "url": "szqii.altn@gmail.com"
+        "url": "mailto:oguzhandican@hotmail.com"
       },
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/sezgi-altan/"
+        "url": "https://www.linkedin.com/in/o%C4%9Fuzhan-dican-92b98a205/"
       },
       {
         "name": "Twitter",
-        "url": "https://twitter.com/sezgiwtf"
+        "url": "https://twitter.com/Oguzhan_Dican"
       }
     ]
   },
@@ -67,7 +44,7 @@
       },
       {
         "name": "E-mail",
-        "url": "szqii.altn@gmail.com"
+        "url": "mailto:szqii.altn@gmail.com"
       },
       {
         "name": "LinkedIn",
@@ -92,19 +69,15 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://www.instagram.com/sezgi.wtf/"
+        "url": "https://www.instagram.com/senaerdag_/"
       },
       {
         "name": "E-mail",
-        "url": "szqii.altn@gmail.com"
+        "url": "mailto:serdag1999@gmail.com"
       },
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/sezgi-altan/"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/sezgiwtf"
+        "url": "https://www.linkedin.com/in/sena-erda%C4%9F-20a82b253/"
       }
     ]
   },
@@ -121,19 +94,19 @@
     "socials": [
       {
         "name": "Instagram",
-        "url": "https://www.instagram.com/sezgi.wtf/"
+        "url": "https://www.instagram.com/edaerdag/"
       },
       {
         "name": "E-mail",
-        "url": "szqii.altn@gmail.com"
+        "url": "mailto:edaaerdag@gmail.com"
       },
       {
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/sezgi-altan/"
+        "url": "https://www.linkedin.com/in/eda-erda%C4%9F-63254b263/"
       },
       {
-        "name": "Twitter",
-        "url": "https://twitter.com/sezgiwtf"
+        "name": "Galeri",
+        "url": "https://instagram.com/lagomudita"
       }
     ]
   }
