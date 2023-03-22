@@ -32,7 +32,7 @@
             <!-- <img class="d-none d-lg-block" data-aos="fade-up" v-lazy="'/contact/contact-3.jpg'" alt=""> -->
         </div>
         <business-card-scene />
-        <img v-lazy="'/contact/contact-mobile.jpg'" data-aos="fade-up" class="d-block d-lg-none w-100 px-0 " alt="">
+        <!-- <img v-lazy="'/contact/contact-mobile.jpg'" data-aos="fade-up" class="d-block d-lg-none w-100 px-0 " alt=""> -->
     </div>
 </template>
 
