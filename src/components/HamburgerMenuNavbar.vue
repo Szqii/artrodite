@@ -3,7 +3,7 @@
         :class="isProjectPage ? 'position-absolute top-0 bg-transparent mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
         style="max-width: 100vw;">
         <div class="col-9 col-md-3" style="cursor: pointer;">
-            <router-link  to="/" class="logo">
+            <router-link to="/" class="logo">
                 <img src="../assets/navbar/logo.svg" alt="logo">
             </router-link>
         </div>
@@ -19,6 +19,7 @@
                 <router-link class="d-flex mx-auto" to="/" @click="closeModal"> Anasayfa</router-link>
                 <router-link class="d-flex mx-auto" to="/projects" @click="closeModal">Projeler</router-link>
                 <router-link class="d-flex mx-auto" to="/studio" @click="closeModal"> Stüdyo</router-link>
+                <router-link class="d-flex mx-auto" to="/team" @click="closeModal"> Takım</router-link>
             </div>
             <div class="col-12 px-4 d-flex align-items-center justify-content-center mt-5" style="font-size: 16px;">
                 <router-link class="contact-btn btn btn-dark text-nowrap" to="/contact" @click="closeModal">Bize
@@ -59,13 +60,16 @@ export default {
 .logo {
     border: none !important;
 }
-.contact-btn{
+
+.contact-btn {
     border: none !important;
 }
+
 .router-link-active,
 .router-link-exact-active {
     border-bottom: 1px solid black;
 }
+
 .hamburgerMenu {
     background-color: #F1F1F1;
     display: flex;
@@ -78,5 +82,4 @@ export default {
     width: 100%;
     height: 100%;
     z-index: 100;
-}
-</style>
+}</style>
