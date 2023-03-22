@@ -1,5 +1,5 @@
 <template>
-    <div class="px-32px px-lg-100 w-100 mt-100">
+    <div class="px-32px px-lg-100 w-100 mt-100" data-aos="flip-down" data-aos-delay="100">
         <div class="border-0 borderY-lg-1 w-100 row m-0" style="height: 200px;">
             <div class="col-3 p-0 mx-auto mx-0 d-flex justify-content-center justify-content-lg-start order-1 order-lg-0">
                 <router-link to="/" class="align-self-center">

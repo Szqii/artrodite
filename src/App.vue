@@ -26,6 +26,15 @@ import Loading from '@/components/Loading.vue';
 import Footer from '@/components/Footer.vue';
 import { onMounted, watch } from '@vue/runtime-core';
 import { useRoute } from 'vue-router'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+onMounted(() => {
+  AOS.init({
+    duration: 1000,
+    once: true
+  })
+})
 
 const route = useRoute()
 

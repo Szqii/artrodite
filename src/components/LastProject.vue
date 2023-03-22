@@ -2,14 +2,14 @@
     <div class="last-project-container row justify-content-between align-content-start mx-auto mx-md-0 my-4 my-md-100 px-4 px-lg-100"
         style="max-width: 100vw;">
         <div class="col-12 col-lg-3 mb-4 mb-lg-0">
-            <span class="title-text">Son Projeler</span>
+            <span class="title-text" data-aos="fade-up">Son Projeler</span>
         </div>
         <div class="projects-container mx-auto col-12 col-lg-9 row justify-content-between gap-5 gap-md-2">
             <div class="col-lg-5 px-0" style="height: fit-content;">
                 <router-link to="projects/berkand">
-                    <img style="max-width: 100%;" src="../assets/projects/berkand.gif" alt="">
+                    <img data-aos="fade-up" style="max-width: 100%;" src="../assets/projects/berkand.gif" alt="">
                 </router-link>
-                <div class="d-flex flex-column mt-4">
+                <div class="d-flex flex-column mt-4" data-aos="fade-up">
                     <router-link to="projects/berkand">
                         <span class="mb-2 hover-underline-animation">Berkand Makina</span>
                     </router-link>
@@ -18,9 +18,9 @@
             </div>
             <div class="col-lg-5 px-0">
                 <router-link to="projects/plasmet">
-                    <img style="max-width: 100%;" src="../assets/projects/plasmet.png" alt="">
+                    <img data-aos="fade-up" data-aos-delay="300" style="max-width: 100%;" src="../assets/projects/plasmet.png" alt="">
                 </router-link>
-                <div class="d-flex flex-column mt-4">
+                <div class="d-flex flex-column mt-4" data-aos="fade-up" data-aos-delay="300">
                     <router-link to="projects/plasmet">
                         <span class="mb-2 hover-underline-animation">Plasmet</span>
                     </router-link>
@@ -29,9 +29,9 @@
             </div>
             <div class="col-lg-5 px-0">
                 <router-link to="projects/havalan">
-                    <img style="max-width: 100%;" src="../assets/projects/havalan.png" alt="">
+                    <img data-aos="fade-up" data-aos-delay="600" style="max-width: 100%;" src="../assets/projects/havalan.png" alt="">
                 </router-link>
-                <div class="d-flex flex-column mt-4">
+                <div class="d-flex flex-column mt-4" data-aos="fade-up" data-aos-delay="600">
                     <router-link to="projects/havalan">
                         <span class="mb-2 hover-underline-animation">Havalan</span>
                     </router-link>
@@ -40,9 +40,9 @@
             </div>
             <div class="col-lg-5 px-0 mt-0 mt-md-5rem">
                 <router-link to="projects/yamu">
-                    <img style="max-width: 100%;" src="../assets/projects/yamu.png" alt="">
+                    <img data-aos="fade-up" data-aos-delay="900" style="max-width: 100%;" src="../assets/projects/yamu.png" alt="">
                 </router-link>
-                <div class="d-flex flex-column mt-4">
+                <div class="d-flex flex-column mt-4" data-aos="fade-up" data-aos-delay="900">
                     <router-link to="projects/yamu">
                         <span class="mb-2 hover-underline-animation">Yamu</span>
                     </router-link>

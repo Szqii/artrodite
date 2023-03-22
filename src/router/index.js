@@ -51,7 +51,7 @@ const routes = [
   {
    path: '/team',
    name: 'team',
-   component: () => import( '../components/Development.vue')
+   component: () => import( '../views/TeamView.vue')
   },
   { 
     path: '/:pathMatch(.*)*', 

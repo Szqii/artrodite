@@ -1,0 +1,140 @@
+{
+  "oguzhan": {
+    "name": "Oğuzhan Dican",
+    "title": "Sanat Yönetmeni",
+    "birthdate": "18.02.1999",
+    "skills": [
+      {
+        "figma": "figma"
+      },
+      {
+        "figma": "figma"
+      },
+      {
+        "figma": "figma"
+      },
+      {
+        "figma": "figma"
+      },
+      {
+        "figma": "figma"
+      },
+      {
+        "figma": "figma"
+      },
+      {
+        "figma": "figma"
+      }
+    ],
+    "descriptions": [
+      "Merhaba ben Oğuzhan! Şu anda Pamukkale Üniversitesi'nde İngiliz dili ve edebiyatı okuyorum. Tasarım yapmayı, arkeolojiyi ve video oyunlarını seviyorum!",
+      "Özgün tasarımlar oluşturmak, araştırma yapmak ve takım çalışması içerisinde olmaktan mutlu oluyorum."
+    ],
+    "imgUrl": "/team/oguzhan.jpg",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sezgi.wtf/"
+      },
+      {
+        "name": "E-mail",
+        "url": "szqii.altn@gmail.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sezgi-altan/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/sezgiwtf"
+      }
+    ]
+  },
+  "sezgi": {
+    "name": "Sezgi Altan",
+    "title": "Yazılım Geliştirici",
+    "birthdate": "21.12.1999",
+    "descriptions": [
+      "Merhaba! Ben Sezgi. Pamukkale Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Ön yüz ve kullanıcı arayüzü geliştiricisiyim. PAÜ Siber Güvenlik Topluluğu Pausiber'de çekirdek ekip üyesiyim.",
+      "Şu anda Simpliers'ta Frontend Developer olarak çalışıyorum.",
+      "Hafta sonu projeleri olarak web uygulamaları oluşturup GitHub'da kendi projelerimi paylaşmanın yanı sıra açık kaynak projelere de katkıda bulunmaya çalışıyorum."
+    ],
+    "imgUrl": "/team/sezgi.jpg",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sezgi.wtf/"
+      },
+      {
+        "name": "E-mail",
+        "url": "szqii.altn@gmail.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sezgi-altan/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/sezgiwtf"
+      }
+    ]
+  },
+  "sena": {
+    "name": "Sena Erdağ",
+    "title": "3D Tasarımcı",
+    "birthdate": "15.12.1999",
+    "descriptions": [
+      "Merhaba ben Sena! PAÜ Mimarlık ve Tasarım Fakültesi Mimarlık bölümü mezunuyum.",
+      "Şu anda Anadolu Üniversitesi Fotoğrafçılık ve Kameramanlık bölümü 2.sınıf öğrencisiyim.",
+      "Ana çalışma alanım mimari proje üretimi ve tasarımlar üzerinedir. Bunun yanı sıra 3D tasarım ve görselleştirme, grafik tasarım, fotoğrafçılık ve video editörlüğü kendimi geliştirmekte olduğum ilgi alanlarım arasında!"
+    ],
+    "imgUrl": "/team/sena.jpg",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sezgi.wtf/"
+      },
+      {
+        "name": "E-mail",
+        "url": "szqii.altn@gmail.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sezgi-altan/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/sezgiwtf"
+      }
+    ]
+  },
+  "eda": {
+    "name": "Eda Erdağ",
+    "title": "Videografi ve Fotografi",
+    "birthdate": "15.12.1999",
+    "descriptions": [
+      "Merhaba ben Eda! Şu anda fizyoterapistim ve Anadolu Üniversitesi Sağlık Yönetimi 3.sınıf öğrencisiyim.",
+      "Kendimi bildim bileli fotoğrafçılık, videografi, editörlük, çizim ve sosyal medya içerik üretimi ile ilgileniyorum.",
+      "Sanat adına kafa yormayı ve tasarımlarımı yaratıcı bir şekilde gerçeğe dönüştürmekten büyük keyif alıyorum. Ekip çalışmalarında yer almayı ve yaratıcı olmayı seviyorum."
+    ],
+    "imgUrl": "/team/eda.jpg",
+    "socials": [
+      {
+        "name": "Instagram",
+        "url": "https://www.instagram.com/sezgi.wtf/"
+      },
+      {
+        "name": "E-mail",
+        "url": "szqii.altn@gmail.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/sezgi-altan/"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://twitter.com/sezgiwtf"
+      }
+    ]
+  }
+}
