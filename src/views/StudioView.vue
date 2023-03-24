@@ -29,8 +29,8 @@
                 <div class="sticky-top title-text" data-aos="fade-up">Metadoloji</div>
             </div>
 
-            <div class="col-12 col-lg-3">
-                <ul class="list-unstyled d-flex flex-column gap-4">
+            <div class="col-12 col-lg-">
+                <!-- <ul class="list-unstyled d-flex flex-column gap-4">
                     <li data-aos="fade-up">Dinle</li>
                     <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
                     <li data-aos="fade-up">Araştır</li>
@@ -40,12 +40,46 @@
                     <li data-aos="fade-up">Test et</li>
                     <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
                     <li data-aos="fade-up">Tekrarla</li>
-                </ul>
+                </ul> -->
+                <div ref="swiper" class="swiper" data-aos="fade-up">
+                    <div class="swiper-wrapper bg-transparent py-4">
+                        <div class="swiper-slide">
+                            Dinle
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa fa-chevron-right" />
+                        </div>
+                        <div class="swiper-slide">
+                            Araştır
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa fa-chevron-right" />
+                        </div>
+                        <div class="swiper-slide">
+                            Tasarla
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa fa-chevron-right" />
+                        </div>
+                        <div class="swiper-slide">
+                            Test et
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa fa-chevron-right" />
+                        </div>
+                        <div class="swiper-slide">
+                            Tekrarla
+                        </div>
+                        <div class="swiper-slide">
+                            <i class="fa fa-chevron-right" />
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-lg-3" />
-            <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
+
+            <!-- <div class="col-12 col-lg-3 px-0 mt-4 mt-lg-0">
                 <img v-lazy="'/studio/studio-2.jpg'" alt="" class="w-100" data-aos="fade-left">
-            </div>
+            </div> -->
         </div>
 
         <div class="col-12 row h-lg-screen mt-5 mx-auto mx-lg-0">
@@ -71,11 +105,78 @@
     </div>
 </template>
 
-<script setup>
+<script>
+
+import references from '../datas/references.json'
+import 'swiper/css';
+
+export default {
+    data() {
+        return {
+            references: references.references,
+        }
+    },
+    methods: {
+        async createSwiper() {
+            this.swiper = require('swiper')
+            const swiperEl = this.$refs.swiper
+            this.swiper = new this.swiper.Swiper(swiperEl, {
+                loop: true,
+                speed: 3000,
+                breakpoints: {
+                    0: {
+                        slidesPerView: 3,
+                    },
+                    768: {
+                        slidesPerView: 5,
+                    }
+                },
+                modules: [
+                    this.swiper.Autoplay,
+                ],
+                autoplay: {
+                    delay: 0,
+                    disableOnInteraction: false,
+                    pauseOnMouseEnter: true,
+                }
+            })
+        },
+    },
+    mounted() {
+        this.createSwiper()
+    },
+
+};
+
+
 
 </script>
 
 <style lang="scss" scoped>
+@import "swiper/swiper-bundle.css";
+
+.swiper-wrapper {
+    transition-timing-function: linear;
+    padding: 0 !important;
+}
+.swiper-slide{
+    text-align: center;
+    color: black;
+    font-size: 4rem;
+     i{
+        font-size: 2rem;
+     }
+}
+
+@media (max-width: 768px) {
+    .swiper-slide{
+        font-size: 2rem;
+        i{
+            font-size: 1rem;
+        }
+    }
+}
+
 .sticky-top {
     top: 20px;
 }
