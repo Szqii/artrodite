@@ -24,7 +24,7 @@ import { OrbitControls, GLTFModel } from '@tresjs/cientos';
 
 
 const cardRef = shallowRef();
-const cameraPosition = [0, 0, -13];
+const cameraPosition = [0, 0, -10];
 // const { onLoop } = useRenderLoop()
 
 // onLoop(({ delta }) => {
@@ -33,11 +33,6 @@ const cameraPosition = [0, 0, -13];
 //     cardRef.value.rotation.z += delta * 0.02
 //     cardRef.value.rotation.x += delta * 0.05
 // })
-
-
-if (window.innerWidth > 991) {
-    cameraPosition[2] = -10;
-}
 
 
 

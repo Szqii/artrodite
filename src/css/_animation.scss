@@ -88,6 +88,20 @@
     }
 }
 
+.h-70vh{
+    height: 70vh;
+}
+
+.h-md-70vh{
+    @media (min-width: 768px) {
+        height: 70vh !important;
+    }
+}
+
+.h-40vh{
+    height: 40vh;
+}
+
 .borderY-md-1{
     @media (min-width: 768px) {
         border-top: 1px solid #000 !important;

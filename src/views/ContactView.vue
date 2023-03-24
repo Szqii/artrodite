@@ -33,7 +33,7 @@
 
         </div>
         <!-- <img v-lazy="'/contact/contact-mobile.jpg'" data-aos="fade-up" class="d-block d-lg-none w-100 px-0 " alt=""> -->
-        <div class="col-12 col-lg-6 mx-auto overflow-hidden mt-2" style="height: 800px;">
+        <div class="col-12 col-lg-6 mx-auto overflow-hidden mt-2 h-40vh h-md-70vh">
             <business-card-scene />
         </div>
     </div>
