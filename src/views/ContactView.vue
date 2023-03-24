@@ -1,5 +1,5 @@
 <template>
-    <div class="row px-32px px-lg-100 px-32px px-lg-100 mx-0 h-screen" style="max-width: 100vw;">
+    <div class="row px-32px px-lg-100 px-32px px-lg-100 mx-0" style="max-width: 100vw; height: 80vh;">
         <div class="col-12 col-lg-3">
             <div class="title-text" data-aos="fade-up">
                 İletişim
@@ -30,9 +30,12 @@
                     class="hover-underline-animation" target="_blank">LinkedIn <i class="fa fa-arrow-up"></i> </a>
             </div>
             <!-- <img class="d-none d-lg-block" data-aos="fade-up" v-lazy="'/contact/contact-3.jpg'" alt=""> -->
+
         </div>
-        <business-card-scene />
         <!-- <img v-lazy="'/contact/contact-mobile.jpg'" data-aos="fade-up" class="d-block d-lg-none w-100 px-0 " alt=""> -->
+        <div class="col-12 col-lg-4 mx-auto overflow-hidden mt-2" style="height: 600px;">
+            <business-card-scene />
+        </div>
     </div>
 </template>
 
@@ -48,10 +51,10 @@ img {
 }
 
 // @media (min-width: 991px) {
-    // .col-lg-3 {
-    //     height: 600px;
-    //     max-height: 800px;
-    // }
+.col-lg-3 {
+    height: fit-content;
+}
+
 // }
 
 i {
