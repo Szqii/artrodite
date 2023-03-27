@@ -1,113 +1,115 @@
 {
-  "oguzhan": {
-    "name": "Oğuzhan Dican",
-    "title": "Sanat Yönetmeni",
-    "birthdate": "18.02.1999",
-    "descriptions": [
-      "Merhaba ben Oğuzhan! Şu anda Pamukkale Üniversitesi'nde İngiliz dili ve edebiyatı okuyorum. Tasarım yapmayı, arkeolojiyi ve video oyunlarını seviyorum!",
-      "Özgün tasarımlar oluşturmak, araştırma yapmak ve takım çalışması içerisinde olmaktan mutlu oluyorum."
-    ],
-    "imgUrl": "/team/oguzhan.jpg",
-    "socials": [
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/oguzhandican/"
-      },
-      {
-        "name": "E-mail",
-        "url": "mailto:oguzhandican@hotmail.com"
-      },
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/o%C4%9Fuzhan-dican-92b98a205/"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/Oguzhan_Dican"
-      }
-    ]
-  },
-  "sezgi": {
-    "name": "Sezgi Altan",
-    "title": "CTO / Yazılım Geliştirici",
-    "birthdate": "21.12.1999",
-    "descriptions": [
-      "Merhaba! Ben Sezgi. Pamukkale Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Ön yüz ve kullanıcı arayüzü geliştiricisiyim. PAÜ Siber Güvenlik Topluluğu Pausiber'de çekirdek ekip üyesiyim.",
-      "Şu anda Simpliers'ta Frontend Developer olarak çalışıyorum.",
-      "Hafta sonu projeleri olarak web uygulamaları oluşturup GitHub'da kendi projelerimi paylaşmanın yanı sıra açık kaynak projelere de katkıda bulunmaya çalışıyorum."
-    ],
-    "imgUrl": "/team/sezgi.jpg",
-    "socials": [
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/sezgi.wtf/"
-      },
-      {
-        "name": "E-mail",
-        "url": "mailto:szqii.altn@gmail.com"
-      },
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/sezgi-altan/"
-      },
-      {
-        "name": "Twitter",
-        "url": "https://twitter.com/sezgiwtf"
-      }
-    ]
-  },
-  "sena": {
-    "name": "Sena Erdağ",
-    "title": "Tasarımcı",
-    "birthdate": "15.12.1999",
-    "descriptions": [
-      "Merhaba ben Sena! PAÜ Mimarlık ve Tasarım Fakültesi Mimarlık bölümü mezunuyum.",
-      "Mimari proje üretimi ve tasarımı üzerine çalışmaktayım. Bununla birlikte 3D tasarım ve görselleştirme, grafik tasarım, fotoğrafçılık ve videografi kendimi geliştirmekte olduğum ilgi alanlarım arasında!",
-      "Ayrıca şu anda Anadolu Üniversitesi Fotoğrafçılık ve Kameramanlık bölümü öğrencisiyim."
-    ],
-    "imgUrl": "/team/sena.jpg",
-    "socials": [
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/senaerdag_/"
-      },
-      {
-        "name": "E-mail",
-        "url": "mailto:serdag1999@gmail.com"
-      },
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/sena-erda%C4%9F-20a82b253/"
-      }
-    ]
-  },
-  "eda": {
-    "name": "Eda Erdağ",
-    "title": "Fotoğrafçılık ve Videografi",
-    "birthdate": "15.12.1999",
-    "descriptions": [
-      "Merhaba ben Eda! PAÜ Fizyoterapi ve Rehabilitasyon Fakültesi mezunuyum. Şu anda Anadolu Üniversitesi Sağlık Yönetimi 3.sınıf öğrencisiyim.",
-      "Çok uzun süredir fotoğrafçılık, videografi, editörlük, çizim ve sosyal medya içerik üretimi ile ilgileniyorum.",
-      "Sanatın her alanına kafa yormaktan ve eserlerimi yaratıcı şekilde gerçeğe dönüştürmekten büyük keyif alıyorum.Ekip çalışmalarında yer almayı ve farklı düşünebilmeyi seviyorum."
-    ],
-    "imgUrl": "/team/edaerdag.jpg",
-    "socials": [
-      {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/edaaerdag/"
-      },
-      {
-        "name": "E-mail",
-        "url": "mailto:edaaerdag@gmail.com"
-      },
-      {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/in/eda-erda%C4%9F-63254b263/"
-      },
-      {
-        "name": "Galeri",
-        "url": "https://instagram.com/lagomudita"
-      }
-    ]
-  }
+  "teamList": [
+    {
+      "name": "Oğuzhan Dican",
+      "title": "Sanat Yönetmeni",
+      "birthdate": "18.02.1999",
+      "descriptions": [
+        "Merhaba ben Oğuzhan! Şu anda Pamukkale Üniversitesi'nde İngiliz dili ve edebiyatı okuyorum. Tasarım yapmayı, arkeolojiyi ve video oyunlarını seviyorum!",
+        "Özgün tasarımlar oluşturmak, araştırma yapmak ve takım çalışması içerisinde olmaktan mutlu oluyorum."
+      ],
+      "imgUrl": "/team/oguzhan.jpg",
+      "socials": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/oguzhandican/"
+        },
+        {
+          "name": "E-mail",
+          "url": "mailto:oguzhandican@hotmail.com"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/o%C4%9Fuzhan-dican-92b98a205/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/Oguzhan_Dican"
+        }
+      ]
+    },
+    {
+      "name": "Sezgi Altan",
+      "title": "CTO / Yazılım Geliştirici",
+      "birthdate": "21.12.1999",
+      "descriptions": [
+        "Merhaba! Ben Sezgi. Pamukkale Üniversitesi Bilgisayar Mühendisliği 4. sınıf öğrencisiyim. Ön yüz ve kullanıcı arayüzü geliştiricisiyim. PAÜ Siber Güvenlik Topluluğu Pausiber'de çekirdek ekip üyesiyim.",
+        "Şu anda Simpliers'ta Frontend Developer olarak çalışıyorum.",
+        "Hafta sonu projeleri olarak web uygulamaları oluşturup GitHub'da kendi projelerimi paylaşmanın yanı sıra açık kaynak projelere de katkıda bulunmaya çalışıyorum."
+      ],
+      "imgUrl": "/team/sezgi.jpg",
+      "socials": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/sezgi.wtf/"
+        },
+        {
+          "name": "E-mail",
+          "url": "mailto:szqii.altn@gmail.com"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sezgi-altan/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/sezgiwtf"
+        }
+      ]
+    },
+    {
+      "name": "Sena Erdağ",
+      "title": "Tasarımcı",
+      "birthdate": "15.12.1999",
+      "descriptions": [
+        "Merhaba ben Sena! PAÜ Mimarlık ve Tasarım Fakültesi Mimarlık bölümü mezunuyum.",
+        "Mimari proje üretimi ve tasarımı üzerine çalışmaktayım. Bununla birlikte 3D tasarım ve görselleştirme, grafik tasarım, fotoğrafçılık ve videografi kendimi geliştirmekte olduğum ilgi alanlarım arasında!",
+        "Ayrıca şu anda Anadolu Üniversitesi Fotoğrafçılık ve Kameramanlık bölümü öğrencisiyim."
+      ],
+      "imgUrl": "/team/sena.jpg",
+      "socials": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/senaerdag_/"
+        },
+        {
+          "name": "E-mail",
+          "url": "mailto:serdag1999@gmail.com"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/sena-erda%C4%9F-20a82b253/"
+        }
+      ]
+    },
+    {
+      "name": "Eda Erdağ",
+      "title": "Fotoğrafçılık ve Videografi",
+      "birthdate": "15.12.1999",
+      "descriptions": [
+        "Merhaba ben Eda! PAÜ Fizyoterapi ve Rehabilitasyon Fakültesi mezunuyum. Şu anda Anadolu Üniversitesi Sağlık Yönetimi 3.sınıf öğrencisiyim.",
+        "Çok uzun süredir fotoğrafçılık, videografi, editörlük, çizim ve sosyal medya içerik üretimi ile ilgileniyorum.",
+        "Sanatın her alanına kafa yormaktan ve eserlerimi yaratıcı şekilde gerçeğe dönüştürmekten büyük keyif alıyorum.Ekip çalışmalarında yer almayı ve farklı düşünebilmeyi seviyorum."
+      ],
+      "imgUrl": "/team/edaerdag.jpg",
+      "socials": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/edaaerdag/"
+        },
+        {
+          "name": "E-mail",
+          "url": "mailto:edaaerdag@gmail.com"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/eda-erda%C4%9F-63254b263/"
+        },
+        {
+          "name": "Galeri",
+          "url": "https://instagram.com/lagomudita"
+        }
+      ]
+    }
+  ]
 }
