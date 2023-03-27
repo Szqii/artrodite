@@ -1,5 +1,6 @@
 {
-    "berkand": {
+    "projectsList" : [
+    {
         "name": "berkand",
         "title": "Berkand Makina",
         "titleDesc": "Kablo Makinaları üreticisi",
@@ -10,7 +11,7 @@
         ],
         "img": "berkand.gif"
     },
-    "plasmet": {
+    {
         "name": "plasmet",
         "title": "Plasmet",
         "titleDesc": "Yapı Çözümleri",
@@ -18,7 +19,7 @@
         "descriptionList": ["Yakında"],
         "img": "plasmet.png"
     },
-    "havalan": {
+    {
         "name": "havalan",
         "title": "Havalan",
         "titleDesc": "Havalandırma Çözümleri",
@@ -26,7 +27,7 @@
         "descriptionList": ["Yakında"],
         "img": "havalan.png"
     },
-    "yamu": {
+    {
         "name": "yamu",
         "title": "Yamu",
         "titleDesc": "Alışveriş yaparken kâr elde edin.",
@@ -34,4 +35,5 @@
         "descriptionList": ["Yakında"],
         "img": "yamu.png"
     }
+    ]
 }

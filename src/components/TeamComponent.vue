@@ -108,6 +108,7 @@ onMounted(() => {
         transition: .3s all ease-in-out;
         border-bottom: 1px solid;
         border-color: transparent;
+        cursor: pointer;
         &.active-list-item{
             border-color: #000;
         }
