@@ -65,14 +65,6 @@ const teamList = team.teamList
 const activeIndex = ref(0);
 const teamPeople = Array.from(document.querySelectorAll('.team-person'));
 
-const scrollToTeamPerson = (index) => {
-    const teamPerson = teamPeople[index];
-    const topPos = teamPerson.offsetTop - 150;
-    window.scrollTo({ top: topPos, behavior: 'smooth' });
-    // teamPerson.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    activeIndex.value = index;
-};
-
 const setActive = () => {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
@@ -85,6 +77,14 @@ const setActive = () => {
 }
 
 onMounted(() => {
+    const scrollToTeamPerson = (index) => {
+        const teamPerson = teamPeople[index];
+        const topPos = teamPerson.offsetTop - 150;
+        console.log(topPos);
+        window.scrollTo({ top: topPos, behavior: 'smooth' });
+        // teamPerson.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        activeIndex.value = index;
+    };
     const teamList = document.querySelectorAll('.team-list li');
     const teamListArray = Array.from(teamList);
     teamListArray.forEach((item, index) => {

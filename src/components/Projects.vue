@@ -59,13 +59,7 @@ const projectList = projects.projectsList
 const activeIndex = ref(0);
 const projectElements = Array.from(document.querySelectorAll('.project-element'));
 
-const scrollToTeamPerson = (index) => {
-    const projectItem = projectElements[index];
-    const topPos = projectItem.offsetTop - 150;
-    window.scrollTo({ top: topPos, behavior: 'smooth' });
-    // projectItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
-    activeIndex.value = index;
-};
+
 
 const setActive = () => {
     const observer = new IntersectionObserver(entries => {
@@ -79,6 +73,13 @@ const setActive = () => {
 }
 
 onMounted(() => {
+    const scrollToTeamPerson = (index) => {
+        const projectItem = projectElements[index];
+        const topPos = projectItem.offsetTop - 150;
+        window.scrollTo({ top: topPos, behavior: 'smooth' });
+        // projectItem.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        activeIndex.value = index;
+    };
     const projectListItem = document.querySelectorAll('.project-list li');
     const projectListArray = Array.from(projectListItem);
     projectListArray.forEach((item, index) => {
