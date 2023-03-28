@@ -32,7 +32,8 @@ import 'aos/dist/aos.css'
 onMounted(() => {
   AOS.init({
     duration: 1000,
-    once: true
+    once: false,
+    dataAosOut: 'fade-out'
   })
 })
 

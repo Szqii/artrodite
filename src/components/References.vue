@@ -5,7 +5,7 @@
             <span class="title-text" data-aos="fade-up">Referanslar</span>
         </div>
         <div class="references-container mx-auto col-12 col-lg-9 row px-0 gap-md-4 justify-content-between">
-            <div class="col-md-2 col-4 py-5 py-md-0" v-for="(reference, index) in referencesList" :key="index" style="max-width: fit-content;">
+            <div class="col-md-2 col-4 py-5 py-md-0" v-for="(reference, index) in referencesList" :key="index" style="max-width: fit-content;" data-aos="zoom-in" :data-aos-delay="index * 200">
                 <img :src="reference.imgUrl" :alt="reference.name">
             </div>
         </div>
