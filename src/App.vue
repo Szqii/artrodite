@@ -61,13 +61,6 @@ const scrollToTop = () => {
 @import './css/_animation.scss';
 @import '~bootstrap/dist/css/bootstrap.css';
 
-
-@font-face {
-  font-family: "Satoshi-Variable";
-  src: local("Satoshi-Variable"),
-    url(./fonts/Satoshi-Variable.ttf) format("truetype");
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -75,7 +68,7 @@ const scrollToTop = () => {
 }
 
 body {
-  font-family: "Satoshi-Variable";
+  font-family: 'Satoshi-Variable', sans-serif;
   background: #F1F1F1;
   overflow-x: hidden;
   font-size: 20px;
