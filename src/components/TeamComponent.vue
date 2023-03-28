@@ -5,7 +5,7 @@
                 Takım <i class="fa fa-chevron-down align-middle fs-6" />
                 <ul class="team-list p-0 mt-4">
                     <li v-for="(person, index) in teamList" :key="index" data-aos="fade-up" :data-aos-delay="index * 50"
-                        class="mb-2 fw-light">
+                        class="mb-2 fw-light fs-6" @click="setActive(index)">
                         <span class="list-item" :class="activeIndex === index ? 'active-list-item' : ''">
                             {{ person.name }}
                         </span>
@@ -63,40 +63,34 @@ import team from '../datas/team.json'
 const teamList = team.teamList
 
 const activeIndex = ref(0);
-const teamPeople = Array.from(document.querySelectorAll('.team-person'));
 
-const setActive = () => {
-    const observer = new IntersectionObserver(entries => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                activeIndex.value = teamPeople.indexOf(entry.target);
-            }
-        });
-    }, { threshold: 0.5 });
-    teamPeople.forEach(person => observer.observe(person));
-}
 
 onMounted(() => {
-    const scrollToTeamPerson = (index) => {
-        const teamPerson = teamPeople[index];
-        const topPos = teamPerson.offsetTop - 150;
-        console.log(topPos);
-        window.scrollTo({ top: topPos, behavior: 'smooth' });
-        // teamPerson.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        activeIndex.value = index;
-    };
-    const teamList = document.querySelectorAll('.team-list li');
-    const teamListArray = Array.from(teamList);
-    teamListArray.forEach((item, index) => {
-        item.addEventListener('click', () => {
-            activeIndex.value = index;
-            scrollToTeamPerson(index);
-        });
-    });
+    const sections = document.querySelectorAll('.team-person')
+    const options = {
+        threshold: 0.5
+    }
+    const observer = new IntersectionObserver(function (entries) {
+        entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+                const index = Array.from(sections).indexOf(entry.target)
+                activeIndex.value = index
+            }
+        })
+    }, options)
+    sections.forEach(section => {
+        observer.observe(section)
+    })
+})
 
-    setActive();
-});
-
+const setActive = (index) => {
+    if(document.querySelectorAll('.team-person').length === 0) return;
+    const teamPeople = Array.from(document.querySelectorAll('.team-person'));
+    const teamPerson = teamPeople[index];
+    const topPos = teamPerson.offsetTop - 150;
+    window.scrollTo({ top: topPos, behavior: 'smooth' });
+    activeIndex.value = index;
+}
 
 </script>
 

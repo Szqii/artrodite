@@ -41,8 +41,7 @@ export default {
     },
     methods: {
         openModal() {
-            this.isModalOpen = true;
-            console.log(this.isModalOpen);
+            this.isModalOpen = true;        
         },
         closeModal() {
             this.isModalOpen = false;

@@ -23,7 +23,6 @@ export default {
     },
     mounted() {
         window.scrollTo(0, 0);
-        console.log('mounted');
         setTimeout(() => {
             this.loading = false;
         }, 1000)
