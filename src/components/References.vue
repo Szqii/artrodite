@@ -1,5 +1,6 @@
 <template>
-    <div class="row justify-content-between align-items-start mx-auto mx-md-0 px-4 px-lg-100 py-4 py-md-10rem mt-5rem"
+    <div class="row justify-content-between align-items-start mx-auto mx-md-0 px-4  py-4 py-md-10rem mt-5rem"
+         :class="isStudio ? '' : 'px-lg-100'"
         style="max-width: 100vw;">
         <div class="col-12 col-lg-3 mb-4 mb-lg-0">
             <span class="title-text" data-aos="fade-up">Referanslar</span>
@@ -20,8 +21,16 @@
 </template>
 
 <script setup>
+import { defineProps } from 'vue'
 import references from '../datas/references.json'
 const referencesList = references.references
+
+defineProps({
+    isStudio: {
+        type: Boolean,
+        default: false
+    }
+})
 
 </script>
 

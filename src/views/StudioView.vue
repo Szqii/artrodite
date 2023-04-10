@@ -102,6 +102,7 @@
                 <img v-lazy="'/studio/studio-3.jpg'" alt="" class="w-100" data-aos="fade-left">
             </div>
         </div>
+        <references :is-studio="true"/>
     </div>
 </template>
 
@@ -109,8 +110,10 @@
 
 import references from '../datas/references.json'
 import 'swiper/css';
+import References from "@/components/References.vue";
 
 export default {
+    components: {References},
     data() {
         return {
             references: references.references,
