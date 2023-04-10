@@ -29,7 +29,7 @@
                 <div class="sticky-top title-text" data-aos="fade-up">Metadoloji</div>
             </div>
 
-            <div class="col-12 col-lg-">
+            <div class="col-12">
                 <!-- <ul class="list-unstyled d-flex flex-column gap-4">
                     <li data-aos="fade-up">Dinle</li>
                     <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
@@ -41,7 +41,7 @@
                     <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
                     <li data-aos="fade-up">Tekrarla</li>
                 </ul> -->
-                <div ref="swiper" class="swiper" data-aos="fade-up">
+                <div ref="swiper" class="swiper" data-aos="fade-up" style="overflow: unset">
                     <div class="swiper-wrapper bg-transparent py-4">
                         <div class="swiper-slide">
                             Dinle
@@ -125,7 +125,7 @@ export default {
             const swiperEl = this.$refs.swiper
             this.swiper = new this.swiper.Swiper(swiperEl, {
                 loop: true,
-                speed: 3000,
+                speed: 2000,
                 breakpoints: {
                     0: {
                         slidesPerView: 3,
