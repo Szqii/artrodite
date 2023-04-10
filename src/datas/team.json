@@ -91,7 +91,7 @@
         "Çok uzun süredir fotoğrafçılık, videografi, editörlük, çizim ve sosyal medya içerik üretimi ile ilgileniyorum.",
         "Sanatın her alanına kafa yormaktan ve eserlerimi yaratıcı şekilde gerçeğe dönüştürmekten büyük keyif alıyorum.Ekip çalışmalarında yer almayı ve farklı düşünebilmeyi seviyorum."
       ],
-      "imgUrl": "/team/edaerdag.jpg",
+      "imgUrl": "/team/eda.jpg",
       "socials": [
         {
           "name": "Instagram",
@@ -108,6 +108,31 @@
         {
           "name": "Galeri",
           "url": "https://instagram.com/lagomudita"
+        }
+      ]
+    },
+        {
+      "name": "Serhad Ekmekçi",
+      "title": "Metin Yazarı",
+      "birthdate": "22.05.1999",
+      "descriptions": [
+        "Merhaba, ben Serhad! Pamukkale Üniversitesi İngiliz Dili ve Edebiyatı bölümünden mezun oldum ve halen formasyon eğitimimi sürdürüyorum.",
+        "Çevirmenlik, Turist Rehberliği ve İçerik Yazarlığı gibi farklı alanlarda çalışmalar yapıyorum ancak asıl mesleğim öğretmenlik. ",
+        "Zaman zaman öğretmenlik yapma fırsatı buluyorum ve her zaman kelimelerle olan bağımı koruyorum."
+      ],
+      "imgUrl": "/team/serhad.jpg",
+      "socials": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/ekmkciii/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/ekmkcii"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/serhad-ekmek%C3%A7i-5487b2238/"
         }
       ]
     }
