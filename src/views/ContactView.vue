@@ -61,6 +61,5 @@ i {
     margin-left: 10px;
     font-size: smaller;
     transform: rotate(45deg);
-
 }
 </style>
