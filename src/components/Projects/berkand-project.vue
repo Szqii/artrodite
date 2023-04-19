@@ -6,7 +6,7 @@
 
         <div v-else class="w-100">
             <div class="project-hero"/>
-            <div class="project-desc text-dark bg-artrodite py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
+            <div class="project-desc fw-light text-dark bg-artrodite py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
                 <a class="text-dark hover-underline-animation me-4" data-aos="fade-up"
                    href="   https://www.berkandmakina.com.tr/" style="height: fit-content" target="_blank">
                     <span class="fs-4 text-nowrap">berkandmakina.com.tr</span>
@@ -74,7 +74,7 @@ export default {
   }
 
   .details {
-    max-width: 40%;
+    max-width: 65%;
 
     div {
       font-size: 1.8rem;
