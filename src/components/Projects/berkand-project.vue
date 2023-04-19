@@ -8,7 +8,7 @@
             <div class="project-hero"/>
             <div class="project-desc text-dark bg-artrodite py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
                 <a class="text-dark hover-underline-animation me-4" data-aos="fade-up"
-                   href="   https://www.berkandmakina.com.tr/" target="_blank" style="height: fit-content">
+                   href="   https://www.berkandmakina.com.tr/" style="height: fit-content" target="_blank">
                     <span class="fs-4 text-nowrap">berkandmakina.com.tr</span>
                     <i class="fa fa-arrow-up"/>
                 </a>
@@ -65,7 +65,7 @@ export default {
 
 .project-desc {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   i {
     margin-left: 10px;
@@ -77,10 +77,9 @@ export default {
     max-width: 40%;
 
     div {
-      font-size: 1.4rem;
+      font-size: 1.8rem;
 
     }
-
     @media (max-width: 768px) {
       div {
         font-size: 1rem;
