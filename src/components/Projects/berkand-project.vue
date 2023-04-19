@@ -6,9 +6,9 @@
 
         <div v-else class="w-100">
             <div class="project-hero"/>
-            <div class="project-desc text-dark bg-white py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
+            <div class="project-desc text-dark bg-artrodite py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
                 <a class="text-dark hover-underline-animation me-4" data-aos="fade-up"
-                   href="   https://www.berkandmakina.com.tr/" target="_blank">
+                   href="   https://www.berkandmakina.com.tr/" target="_blank" style="height: fit-content">
                     <span class="fs-5 text-nowrap">berkandmakina.com.tr</span>
                     <i class="fa fa-arrow-up"/>
                 </a>
@@ -26,8 +26,8 @@
                 </div>
             </div>
 
-            <div v-for="(n, index) in 17" :key="index" style="width: 100vw;">
-                <img :src="'/berkand-project/' + (n + 2) + '.png'" alt="" style="width: 100%; height: 100%;">
+            <div v-for="(n, index) in 18" :key="index" style="width: 100vw;">
+                <img :src="'/berkand-project/' + n + '.png'" alt="" style="width: 100%; height: 100%;">
             </div>
         </div>
     </transition>
@@ -59,17 +59,13 @@ export default {
 .project-hero {
   width: 100vw;
   height: 100vh;
-  background: url("../../../public/berkand-project/1.png") no-repeat center center;
+  background: url("../../../public/berkand-project/bg.png") no-repeat center center;
   background-size: cover;
 }
 
 .project-desc {
   width: 100vw;
   height: 100vh;
-
-  .hover-underline-animation:after {
-    background-color: #F1F1F1 !important;
-  }
 
   i {
     margin-left: 10px;
