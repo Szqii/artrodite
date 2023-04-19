@@ -30,18 +30,7 @@
             </div>
 
             <div class="col-12">
-                <!-- <ul class="list-unstyled d-flex flex-column gap-4">
-                    <li data-aos="fade-up">Dinle</li>
-                    <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
-                    <li data-aos="fade-up">Araştır</li>
-                    <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
-                    <li data-aos="fade-up">Tasarla</li>
-                    <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
-                    <li data-aos="fade-up">Test et</li>
-                    <li data-aos="fade-up"><i class="fa fa-chevron-down"></i></li>
-                    <li data-aos="fade-up">Tekrarla</li>
-                </ul> -->
-                <div ref="swiper" class="swiper" data-aos="fade-up" style="overflow: unset">
+                <div ref="swiper" class="swiper w-100" data-aos="fade-up" style="overflow: unset">
                     <div class="swiper-wrapper bg-transparent py-4">
                         <div class="swiper-slide">
                             Dinle
