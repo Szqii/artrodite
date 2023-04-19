@@ -59,7 +59,7 @@ export default {
 .project-hero {
   width: 100vw;
   height: 100vh;
-  background: url("../../../public/berkand-project/1.png") no-repeat center center fixed;
+  background: url("../../../public/berkand-project/1.png") no-repeat center center;
   background-size: cover;
 }
 
