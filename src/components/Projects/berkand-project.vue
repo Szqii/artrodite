@@ -1,10 +1,33 @@
 <template>
-    <transition name="fade" mode="out-in" enter-active-class="animate__animated animate__fadeIn animate__faster"
-        leave-active-class="animate__animated animate__fadeOut animate__faster">
-        <loading v-if="loading" />
-        <div v-else>
-            <div v-for="(n, index) in 19" :key="index" style="width: 100vw;">
-                <img :src="'/berkand-project/' + n + '.png'" alt="" style="width: 100%; height: 100%;">
+    <transition enter-active-class="animate__animated animate__fadeIn animate__faster"
+                leave-active-class="animate__animated animate__fadeOut animate__faster" mode="out-in"
+                name="fade">
+        <loading v-if="loading"/>
+
+        <div v-else class="w-100">
+            <div class="project-hero"/>
+            <div class="project-desc text-dark bg-white py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
+                <a class="text-dark hover-underline-animation me-4" data-aos="fade-up"
+                   href="   https://www.berkandmakina.com.tr/" target="_blank">
+                    <span class="fs-5 text-nowrap">berkandmakina.com.tr</span>
+                    <i class="fa fa-arrow-up"/>
+                </a>
+                <div class="details d-flex flex-column gap-3 gap-md-130px">
+                    <div class="mb-4" data-aos="fade-up">
+                        Berkand Makina 2010 yılından bu yana kablo makinaları ve kablo sektörüne yönelik yedek parça,
+                        kapsamlı makine çözümlerinde faaliyet göstermektedir.
+                    </div>
+                    <div data-aos="fade-up">
+                        Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden
+                        tasarladık ve kurumsal kimliğini oluşturduk. Yeni tasarım, şirketin değerlerini ve hedeflerini
+                        yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler
+                        ve yazı kullanımını içeriyor.
+                    </div>
+                </div>
+            </div>
+
+            <div v-for="(n, index) in 17" :key="index" style="width: 100vw;">
+                <img :src="'/berkand-project/' + (n + 2) + '.png'" alt="" style="width: 100%; height: 100%;">
             </div>
         </div>
     </transition>
@@ -12,6 +35,7 @@
 
 <script>
 import Loading from '@/components/Loading.vue';
+
 export default {
     components: {
         Loading
@@ -31,4 +55,43 @@ export default {
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.project-hero {
+  width: 100vw;
+  height: 100vh;
+  background: url("../../../public/berkand-project/1.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.project-desc {
+  width: 100vw;
+  height: 100vh;
+
+  .hover-underline-animation:after {
+    background-color: #F1F1F1 !important;
+  }
+
+  i {
+    margin-left: 10px;
+    font-size: smaller;
+    transform: rotate(45deg);
+  }
+
+  .details {
+    max-width: 40%;
+
+    div {
+      font-size: 1.2rem;
+
+    }
+
+    @media (max-width: 768px) {
+      div {
+        font-size: 1rem;
+      }
+      max-width: 100%;
+    }
+  }
+}
+
+</style>
