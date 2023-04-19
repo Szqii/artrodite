@@ -1,11 +1,11 @@
 <template>
-    <div class="d-none d-lg-flex row w-100 mx-0 justify-content-between px-32px px-lg-100 py-28px"
-    data-aos="fade-down"
-        :class="isProjectPage ? 'position-absolute top-0 bg-transparent mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
-        style="max-width: 100vw;">
+    <div :class="isProjectPage ? 'position-absolute bg-transparent top-0 mb-md-0 mb-0' : 'bg-artrodite mb-4 mb-md-100 '"
+         class=" d-none d-lg-flex row w-100 justify-content-between px-32px px-lg-100 py-28px"
+         data-aos="fade-down"
+         style="width: 100vw;">
         <div class="col-9 col-md-3" style="cursor: pointer;">
-            <router-link to="/" class="logo">
-                <img src="../assets/navbar/logo.svg" alt="logo">
+            <router-link class="logo" to="/">
+                <img alt="logo" src="../assets/navbar/logo.svg">
             </router-link>
         </div>
 
@@ -26,19 +26,11 @@
 <script>
 export default {
     mounted() {
-        if (this.$route.path.includes('projects/')) {
-            this.isProjectPage = true;
-        } else {
-            this.isProjectPage = false;
-        }
+        this.isProjectPage = !!this.$route.path.includes('projects/');
     },
     watch: {
-        $route(to) {
-            if (to.path.includes('projects/')) {
-                this.isProjectPage = true;
-            } else {
-                this.isProjectPage = false;
-            }
+        $route() {
+            this.isProjectPage = !!this.$route.path.includes('projects/');
         }
     },
     data() {
@@ -53,32 +45,32 @@ export default {
 <style lang="scss" scoped>
 a {
 
-    font-weight: 500;
-    padding: 5px 0;
+  font-weight: 500;
+  padding: 5px 0;
 }
 
 i {
-    opacity: 0;
-    font-size: .3rem;
-    margin-right: 5px;
+  opacity: 0;
+  font-size: .3rem;
+  margin-right: 5px;
 }
 
 .logo {
-    border: none !important;
+  border: none !important;
 }
 
 .router-link-active,
 .router-link-exact-active {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 .contact-btn {
-    padding: 2px 10px;
-    margin-left: 20px;
+  padding: 2px 10px;
+  margin-left: 20px;
 }
 
 .contact-btn:hover {
-    background-color: #fff !important;
-    color: #000 !important;
+  background-color: #fff !important;
+  color: #000 !important;
 }
 </style>
