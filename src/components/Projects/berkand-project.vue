@@ -9,7 +9,7 @@
             <div class="project-desc text-dark bg-artrodite py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
                 <a class="text-dark hover-underline-animation me-4" data-aos="fade-up"
                    href="   https://www.berkandmakina.com.tr/" target="_blank" style="height: fit-content">
-                    <span class="fs-5 text-nowrap">berkandmakina.com.tr</span>
+                    <span class="fs-4 text-nowrap">berkandmakina.com.tr</span>
                     <i class="fa fa-arrow-up"/>
                 </a>
                 <div class="details d-flex flex-column gap-3 gap-md-130px">
@@ -77,7 +77,7 @@ export default {
     max-width: 40%;
 
     div {
-      font-size: 1.2rem;
+      font-size: 1.4rem;
 
     }
 
