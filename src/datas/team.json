@@ -113,6 +113,36 @@
       ]
     },
     {
+      "name": "Enes Kaya",
+      "title": "Yazılım Geliştirici",
+      "birthdate": "05.05.2002",
+      "descriptions": [
+        "Merhaba, ben Enes! Pamukkale Üniversitesi Bilgisayar Mühendisliği 2. sınıf öğrencisiyim. Ayrıca PAÜ Siber Güvenlik Topluluğu Pausiber'de çekirdek ekip üyesiyim.",
+        "Aktif olarak web uygulamaları geliştirme ve Linux sistemleri ile ilgileniyorum. Bu alanlarda kendi projelerimi yapıp Github'da paylaşıyorum."
+      ],
+      "imgUrl": "/team/enes.jpg",
+      "externalUrl": "https://eneskaya.page",
+      "socials": [
+        {
+          "name": "Instagram",
+          "url": "https://www.instagram.com/ensk05/"
+        },
+        {
+          "name": "E-mail",
+          "url": "mailto:eneskaya5261@gmail.com"
+        },
+        {
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/eneskaya25/"
+        },
+        {
+          "name": "Twitter",
+          "url": "https://twitter.com/eneskay_"
+        }
+      ]
+    },
+
+    {
       "name": "Serhad Ekmekçi",
       "title": "Metin Yazarı",
       "birthdate": "22.05.1999",
