@@ -44,12 +44,14 @@
                     </span>
                 </div>
                 <div class="col-12 col-lg-4" style="height: fit-content;">
+                  <a :href="person.externalUrl" target="_blank">
                     <img data-aos="fade-left" class="rounded-4" :src="person.imgUrl" :alt="person.name + ' image'"
                         style="max-width: 100%; aspect-ratio: 1; object-fit: cover;">
+                  </a>
                     <div class="d-flex align-items-center justify-content-between mt-4">
                         <a class="fs-6 fw-lighter hover-underline-animation" data-aos="fade-up" :data-aos-delay="index * 50"
                             :href="social.url" target="_blank" v-for="(social, index) in person.socials" :key="index">{{
-                                social.name }} <img src="../assets/arrow-up-right.png" /> </a>
+                                social.name }} <img src="../assets/arrow-up-right.png" :alt="social.name"/> </a>
                     </div>
                 </div>
             </div>
@@ -73,8 +75,7 @@ onMounted(() => {
     const observer = new IntersectionObserver(function (entries) {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
-                const index = Array.from(sections).indexOf(entry.target)
-                activeIndex.value = index
+                activeIndex.value = Array.from(sections).indexOf(entry.target)
             }
         })
     }, options)

@@ -44,6 +44,13 @@ const routes = [
         component: () => import( '../views/TeamView.vue')
     },
     {
+        path: '/sezgi',
+        name: 'sezgi',
+        beforeEnter() {
+            window.location.href = "https://sezgi.wtf";
+        }
+    },
+    {
         path: '/:pathMatch(.*)*',
         component: () => import( '../components/404.vue')
     }
