@@ -1,39 +1,27 @@
 {
-    "projectsList" : [
+  "projectsList": [
     {
-        "name": "berkand",
-        "title": "Berkand Makina",
-        "titleDesc": "Kablo Makinaları üreticisi",
-        "date": "05.10.2022",
-        "descriptionList": [
-            "Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden tasarladık ve kurumsal kimliğini oluşturduk.",
-            "Yeni tasarım, şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler ve yazı kullanımını içeriyor."
-        ],
-        "img": "berkand.gif"
+      "name": "berkand",
+      "title": "Berkand Makina",
+      "titleDesc": "Kablo Makinaları Üreticisi",
+      "date": "05.10.2022",
+      "descriptionList": [
+        "Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden tasarladık ve kurumsal kimliğini oluşturduk.",
+        "Yeni tasarım, şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler ve yazı kullanımını içeriyor."
+      ],
+      "img": "berkand.gif"
     },
     {
-        "name": "plasmet",
-        "title": "Plasmet",
-        "titleDesc": "Yapı Çözümleri",
-        "date": "24.11.2022",
-        "descriptionList": ["Yakında"],
-        "img": "plasmet.png"
-    },
-    {
-        "name": "havalan",
-        "title": "Havalan",
-        "titleDesc": "Havalandırma Çözümleri",
-        "date": "18.12.2022",
-        "descriptionList": ["Yakında"],
-        "img": "havalan.png"
-    },
-    {
-        "name": "yamu",
-        "title": "Yamu",
-        "titleDesc": "Alışveriş yaparken kâr elde edin.",
-        "date": "24.11.2022",
-        "descriptionList": ["Yakında"],
-        "img": "yamu.png"
+      "name": "hidrobarsan",
+      "title": "Hidrobarsan",
+      "titleDesc": "Mermer Makinaları Üreticisi",
+      "date": "01.06.2023",
+      "descriptionList": [
+        "Bu çalışmada, Hidrobarsan’nın web sitesini yeniden tasarladık. Hidrobarsan şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan bir yüz kazandırdık.",
+        "Yeni tasarım ile Hidrobarsan'a şirket değerlerini ve hedeflerini yansıtmayı amaçlayan bir yüz kazandırdık.",
+        "Makinelerin teknik özelliklerini ve ürünlerin görsellerini kullanıcıya sunmayı amaçladık. 3 Boyutlu ürün görselleri ile kullanıcıya ürünlerin daha iyi tanıtımını sağladık."
+      ],
+      "img": "hidrobarsan.png"
     }
-    ]
+  ]
 }

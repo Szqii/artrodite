@@ -17,36 +17,14 @@
                 </div>
             </div>
             <div class="col-lg-5 px-0">
-                <router-link to="projects/plasmet">
-                    <img data-aos="fade-up" data-aos-delay="200" style="max-width: 100%;" src="../assets/projects/plasmet.png" alt="">
+                <router-link to="projects/hidrobarsan">
+                    <img data-aos="fade-up" data-aos-delay="200" style="max-width: 100%;" src="../assets/projects/hidrobarsan.png" alt="">
                 </router-link>
                 <div class="d-flex flex-column mt-4" data-aos="fade-up" data-aos-delay="300">
                     <router-link to="projects/plasmet">
-                        <span class="mb-2 hover-underline-animation">Plasmet</span>
+                        <span class="mb-2 hover-underline-animation">Hidrobarsan</span>
                     </router-link>
-                    <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Yapı Çözümleri</span>
-                </div>
-            </div>
-            <div class="col-lg-5 px-0">
-                <router-link to="projects/havalan">
-                    <img data-aos="fade-up" data-aos-delay="400" style="max-width: 100%;" src="../assets/projects/havalan.png" alt="">
-                </router-link>
-                <div class="d-flex flex-column mt-4" data-aos="fade-up" data-aos-delay="500">
-                    <router-link to="projects/havalan">
-                        <span class="mb-2 hover-underline-animation">Havalan</span>
-                    </router-link>
-                    <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Havalandırma Çözümleri</span>
-                </div>
-            </div>
-            <div class="col-lg-5 px-0 mt-0 mt-md-5rem">
-                <router-link to="projects/yamu">
-                    <img data-aos="fade-up" data-aos-delay="600" style="max-width: 100%;" src="../assets/projects/yamu.png" alt="">
-                </router-link>
-                <div class="d-flex flex-column mt-4" data-aos="fade-up" data-aos-delay="700">
-                    <router-link to="projects/yamu">
-                        <span class="mb-2 hover-underline-animation">Yamu</span>
-                    </router-link>
-                    <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Alışveriş Yaparken Kâr Edin</span>
+                    <span class="text-artrodite-gray fw-light" style="font-size: 16px;">Mermer Makinaları Üreticisi</span>
                 </div>
             </div>
         </div>
