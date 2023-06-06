@@ -9,7 +9,7 @@
       <description :url="url" :description1="description1" :description2="description2"/>
 
       <div v-for="(n, index) in 18" :key="index" style="width: 100vw;">
-        <img :src="'/berkand-project/' + n + '.png'" alt="" style="width: 100%; height: 100%;">
+        <img :src="'/Projects/berkand-project/' + n + '.png'" alt="" style="width: 100%; height: 100%;">
       </div>
     </div>
   </transition>
