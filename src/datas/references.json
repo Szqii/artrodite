@@ -1,24 +1,12 @@
 {
   "references": [
     {
-      "name": "Şahlan",
-      "imgUrl": "/references/sahlan.png"
-    },
-    {
       "name": "Berkand",
       "imgUrl": "/references/berkand.png"
     },
     {
-      "name": "Bemos",
-      "imgUrl": "/references/bemos.png"
-    },
-    {
-      "name": "Hpatek",
-      "imgUrl": "/references/hpatek.png"
-    },
-    {
-      "name": "Şifre Haber",
-      "imgUrl": "/references/sifre-haber.png"
+      "name": "Hidrobarsan",
+      "imgUrl": "/references/hidrobarsan.png"
     },
     {
       "name": "Bemar",
