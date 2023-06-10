@@ -9,7 +9,8 @@
         "Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden tasarladık ve kurumsal kimliğini oluşturduk.",
         "Yeni tasarım, şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler ve yazı kullanımını içeriyor."
       ],
-      "img": "berkand.gif"
+      "img": "berkand.png",
+      "color": "#3E5F8A"
     },
     {
       "name": "hidrobarsan",
@@ -21,7 +22,8 @@
         "Yeni tasarım ile Hidrobarsan'a şirket değerlerini ve hedeflerini yansıtmayı amaçlayan bir yüz kazandırdık.",
         "Makinelerin teknik özelliklerini ve ürünlerin görsellerini kullanıcıya sunmayı amaçladık. 3 Boyutlu ürün görselleri ile kullanıcıya ürünlerin daha iyi tanıtımını sağladık."
       ],
-      "img": "hidrobarsan.png"
+      "img": "hidrobarsan.png",
+      "color": "#FBB901"
     }
   ]
 }

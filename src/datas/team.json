@@ -59,60 +59,6 @@
       ]
     },
     {
-      "name": "Sena Erdağ",
-      "title": "Tasarımcı",
-      "birthdate": "15.12.1999",
-      "descriptions": [
-        "Merhaba ben Sena! PAÜ Mimarlık ve Tasarım Fakültesi Mimarlık bölümü mezunuyum.",
-        "Mimari proje üretimi ve tasarımı üzerine çalışmaktayım. Bununla birlikte 3D tasarım ve görselleştirme, grafik tasarım, fotoğrafçılık ve videografi kendimi geliştirmekte olduğum ilgi alanlarım arasında!",
-        "Ayrıca şu anda Anadolu Üniversitesi Fotoğrafçılık ve Kameramanlık bölümü öğrencisiyim."
-      ],
-      "imgUrl": "/team/sena.jpg",
-      "socials": [
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/senaerdag_/"
-        },
-        {
-          "name": "E-mail",
-          "url": "mailto:serdag1999@gmail.com"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/sena-erda%C4%9F-20a82b253/"
-        }
-      ]
-    },
-    {
-      "name": "Eda Erdağ",
-      "title": "Fotoğrafçılık ve Videografi",
-      "birthdate": "15.12.1999",
-      "descriptions": [
-        "Merhaba ben Eda! PAÜ Fizyoterapi ve Rehabilitasyon Fakültesi mezunuyum. Şu anda Anadolu Üniversitesi Sağlık Yönetimi 3.sınıf öğrencisiyim.",
-        "Çok uzun süredir fotoğrafçılık, videografi, editörlük, çizim ve sosyal medya içerik üretimi ile ilgileniyorum.",
-        "Sanatın her alanına kafa yormaktan ve eserlerimi yaratıcı şekilde gerçeğe dönüştürmekten büyük keyif alıyorum.Ekip çalışmalarında yer almayı ve farklı düşünebilmeyi seviyorum."
-      ],
-      "imgUrl": "/team/eda.jpg",
-      "socials": [
-        {
-          "name": "Instagram",
-          "url": "https://www.instagram.com/edaaerdag/"
-        },
-        {
-          "name": "E-mail",
-          "url": "mailto:edaaerdag@gmail.com"
-        },
-        {
-          "name": "LinkedIn",
-          "url": "https://www.linkedin.com/in/eda-erda%C4%9F-63254b263/"
-        },
-        {
-          "name": "Galeri",
-          "url": "https://instagram.com/lagomudita"
-        }
-      ]
-    },
-    {
       "name": "Enes Kaya",
       "title": "Yazılım Geliştirici",
       "birthdate": "05.05.2002",
@@ -141,7 +87,6 @@
         }
       ]
     },
-
     {
       "name": "Serhad Ekmekçi",
       "title": "Metin Yazarı",
