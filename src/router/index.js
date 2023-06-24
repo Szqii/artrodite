@@ -31,6 +31,11 @@ const routes = [
                 name: 'hidrobarsan',
                 component: () => import( '../components/Projects/hidrobarsan-project.vue')
             },
+            {
+                path: '/projects/halo',
+                name: 'halo',
+                component: () => import( '../components/Projects/halo-project.vue')
+            },
         ]
     },
     {

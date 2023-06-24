@@ -1,16 +1,17 @@
 {
   "projectsList": [
     {
-      "name": "berkand",
-      "title": "Berkand Makina",
-      "titleDesc": "Kablo Makinaları Üreticisi",
-      "date": "05.10.2022",
+      "name": "halo",
+      "title": "Halo",
+      "titleDesc": "Edebiyat Dergisi",
+      "date": "26.05.2023",
       "descriptionList": [
-        "Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden tasarladık ve kurumsal kimliğini oluşturduk.",
-        "Yeni tasarım, şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler ve yazı kullanımını içeriyor."
+        "Halo, Pamukkale Üniversitesi İngiliz Dili ve Edebiyatı öğrencileri tarafından yazılan ve sanatla edebiyatı harmanlayan bir dergi.",
+        "İçinde barındırdığı zengin içeriklerle dikkat çeken bu platformla iş birliği yapmaktan büyük mutluluk duyuyoruz.",
+        "Artrodite olarak, Halo dergisine yaptığımız dokunuşlarla tasarımını sadeleştirdik ve minimalizmi ön plana çıkardık. İkonografi kullanımıyla da hızlı anlaşılabilirlik ve rahat bir okuma deneyimi sağlamayı hedefledik."
       ],
-      "img": "berkand.png",
-      "color": "#3E5F8A"
+      "img": "halo.png",
+      "color": "#000000"
     },
     {
       "name": "hidrobarsan",
@@ -24,6 +25,18 @@
       ],
       "img": "hidrobarsan.png",
       "color": "#FBB901"
+    },
+    {
+      "name": "berkand",
+      "title": "Berkand Makina",
+      "titleDesc": "Kablo Makinaları Üreticisi",
+      "date": "05.10.2022",
+      "descriptionList": [
+        "Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden tasarladık ve kurumsal kimliğini oluşturduk.",
+        "Yeni tasarım, şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler ve yazı kullanımını içeriyor."
+      ],
+      "img": "berkand.png",
+      "color": "#3E5F8A"
     }
   ]
 }
