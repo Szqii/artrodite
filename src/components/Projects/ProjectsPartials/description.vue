@@ -2,7 +2,7 @@
   <div
       class="project-desc fw-light text-dark bg-artrodite py-4 py-md-10rem px-5 px-lg-100 d-flex flex-column flex-md-row justify-content-around justify-content-md-between">
     <a class="text-dark hover-underline-animation me-4" data-aos="fade-up"
-       :href="'https://www.' + url" style="height: fit-content" target="_blank">
+       :href="'https://' + url" style="height: fit-content" target="_blank">
       <span class="fs-4 text-nowrap">{{ url }}</span>
       <i class="fa fa-arrow-up"/>
     </a>
