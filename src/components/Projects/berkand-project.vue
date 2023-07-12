@@ -27,7 +27,7 @@ export default {
   data() {
     return {
       loading: true,
-      url: 'berkandmakina.com.tr',
+      url: 'berkandmakina.framer.website',
       description1: 'Berkand Makina 2010 yılından bu yana kablo makinaları ve kablo sektörüne yönelik yedek parça, kapsamlı makine çözümlerinde faaliyet göstermektedir.',
       description2: 'Bu çalışmada, Berkand Makina’nın logo, web sitesi, katalog, renk ve yazı tipi seçiminin yeniden tasarladık ve kurumsal kimliğini oluşturduk. Yeni tasarım, şirketin değerlerini ve hedeflerini yansıtmayı amaçlayan minimalist bir logo, temiz bir web sitesi, şirket değerlere uygun renkler ve yazı kullanımını içeriyor.'
     }
